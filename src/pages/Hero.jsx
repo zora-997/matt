@@ -28,7 +28,7 @@ const Hero = () => {
   const currentIndexRef = useRef(0);
   const text = texts.hero_title;
   const characters = text.split("");
-  const textLine = "------------------------hj-----------------------------";
+  const textLine = "-----------------------------------------------------";
   const charactersLine = textLine.split("");
 
   const images = useMemo(
