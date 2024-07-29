@@ -44,7 +44,7 @@ export const Footer = () => {
 
     <footer
       id="contact"
-      className="relative m-auto  flex  items-center justify-center brightness-75 text-white"
+      className="relative m-auto  flex  items-center justify-center  text-white"
     >
       <img
         src={footer}
