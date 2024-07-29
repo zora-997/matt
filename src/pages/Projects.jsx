@@ -63,7 +63,7 @@ function Projects() {
 
 
   return (
-    <div  id='projects' className=" bg-white flex flex-col max-w-[1820px]  m-auto text-start items-start justify-start mt-10 pb-10  pr-4 pl-4 mb-56">
+    <div  id='projects' className=" bg-white flex flex-col max-w-[1820px]  m-auto text-start items-start justify-start my-16 pb-10  p-4 ">
       <h1 className="text-black font-bold sm:text-3xl text-lg "
         data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
       >{texts.projects}</h1>
