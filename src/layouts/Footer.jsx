@@ -7,7 +7,8 @@ import mail_icon from "../assets/mail.png";
 import tel_icon from "../assets/telephone-call.png";
 import facebook_icon from "../assets/facebook (1).png";
 import instagram_icon from "../assets/instagram-logo.png";
-import footer from "../assets/BG/footer.jpg";
+// import footer from "../assets/BG/footer.jpg";
+import bg from "../assets/matt-projects/project-2.jpg";
 import logo from "../assets/matt-projects/matt-company-logo.png";
 
 export const Footer = () => {
@@ -47,14 +48,14 @@ export const Footer = () => {
       className="relative m-auto  flex  items-center justify-center  text-white"
     >
       <img
-        src={footer}
+        src={bg}
         alt="footer"
         className="object-cover brightness-50 w-full h-[60rem] relative "
       />
       <img
         src={logo}
         alt="logo"
-        className="absolute top-[10%] md:top-[0%] lg:w-[90rem] md:w-[70rem] w-fit  lg:h-[55rem] md:h-[40rem] h-fit "
+        className="absolute md:hidden "
       />
 
       <div class="max-w-[1300px] m-auto   absolute bottom-6">
