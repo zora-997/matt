@@ -144,9 +144,9 @@ function ServicesItem() {
   return (
     <div className="w-full  bg-white flex  justify-center items-center">
       <div className=" ">
-        <div className="w-full  h-[400px] md:h-[600px] bg-cover relative mt-24">
+        <div className="w-full  md:h-[600px] bg-cover relative mt-24">
           <img
-            className=" w-full  h-[400px] md:h-[600px] z-[1] brightness-50 object-cover  absolute"
+            className=" w-full  md:h-[600px] z-[1] brightness-50 object-cover  absolute"
             src={QF_107_4}
             alt="Slideshow"
           />
@@ -179,7 +179,7 @@ function ServicesItem() {
             {...settings}
             className="lg:w-[1200px]  xsm:w-80 2xsm:w-72 w-52"
           >
-            {showInteriorSlider ? dataDigitalBestSeller.map((item) => (
+            {!showInteriorSlider ? dataDigitalBestSeller.map((item) => (
               <div className="card w-full ">
                 <div className="">
                   <img
