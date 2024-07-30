@@ -331,10 +331,10 @@ import QF_125_7 from "./assets/ProjectAssets/QF-125/photo_5208491434267749219_y.
 import QF_125_8 from "./assets/ProjectAssets/QF-125/photo_5208491434267749220_y.jpg"
 
 
-import QF_126_mainIMG from "./assets/ProjectAssets/QF-126/1 (1)~1.jpg"
-import QF_126_2 from "./assets/ProjectAssets/QF-126/1 (2)~1.jpg"
-import QF_126_3 from "./assets/ProjectAssets/QF-126/1 (3)~1.jpg"
-import QF_126_4 from "./assets/ProjectAssets/QF-126/1 (4)~1.jpg"
+// import QF_126_mainIMG from "./assets/ProjectAssets/QF-126/1 (1)~1.jpg"
+// import QF_126_2 from "./assets/ProjectAssets/QF-126/1 (2)~1.jpg"
+// import QF_126_3 from "./assets/ProjectAssets/QF-126/1 (3)~1.jpg"
+// import QF_126_4 from "./assets/ProjectAssets/QF-126/1 (4)~1.jpg"
 
 
 
@@ -396,10 +396,10 @@ import QF_132_5 from "./assets/ProjectAssets/QF-132/1 (5).jpg"
 
 
 
-import QF_133_mainIMG from "./assets/ProjectAssets/QF-133/1 (1).jpg"
-import QF_133_2 from "./assets/ProjectAssets/QF-133/1 (2).jpg"
-import QF_133_3 from "./assets/ProjectAssets/QF-133/1 (3).jpg"
-import QF_133_4 from "./assets/ProjectAssets/QF-133/1 (4).jpg"
+// import QF_133_mainIMG from "./assets/ProjectAssets/QF-133/1 (1).jpg"
+// import QF_133_2 from "./assets/ProjectAssets/QF-133/1 (2).jpg"
+// import QF_133_3 from "./assets/ProjectAssets/QF-133/1 (3).jpg"
+// import QF_133_4 from "./assets/ProjectAssets/QF-133/1 (4).jpg"
 
 
 
@@ -526,7 +526,7 @@ import project25 from "./assets/matt-projects/project-25.jpg"
 import project26 from "./assets/matt-projects/project-26.jpg"
 import project27 from "./assets/matt-projects/project-27.jpg"
 import project28 from "./assets/matt-projects/project-28.jpg"
-import project29 from "./assets/matt-projects/project-29.jpg"
+// import project29 from "./assets/matt-projects/project-29.jpg"
 import project30 from "./assets/matt-projects/project-30.jpg"
 import project31 from "./assets/matt-projects/project-31.jpg"
 import project32 from "./assets/matt-projects/project-32.jpg"
@@ -578,13 +578,49 @@ import project75 from "./assets/matt-projects/project-75.jpg"
 
 
 
+export const dataInteriorImage =[
+  
+    project19,
+    project20,
+    project21,
+    project22,
+    project23,
+    project24,
+    project49,
+project50,
+project51,
+project52,
+project53,
+project54,
+project55,
+project56,
+project57,
+project58,
+project59,
+project60,
+project61,
+project63,
+project64,
+project65,
+project66,
+project67,
+project68,
+project69,
+project70,
+project75,
+  
+  ]
+
+
+
+
 export const dataDigitalBestSeller = [
     {
       id: 0,
       title: 'QF-101',
       english: 'Design of Salah Al-Din Governorate Council Project',
       arabic: 'مشروع تصميم مجلس محافظة صلاح الدين',
-      mainIMG: project4,
+      mainIMG: project17,
       interior:[],
       exterior:[QF_101_mainIMG,QF_101_2,QF_101_3,QF_101_4],
       landscap:[]
@@ -714,7 +750,7 @@ export const dataDigitalBestSeller = [
       title: 'QF-114',
       english: 'Design of the external facades with the landscape of the medical complex building in Al-Tebaa Street in Tikrit-Salah Al-Din',
       arabic: "تصميم الواجهات الخارجية مع اللاتد سكيب الخاص ببناية المجمع الطبي (المشيد) في شارع الأطباء في صلاح الدين-تكريت",
-      mainIMG: project17,
+      mainIMG: project4,
       interior:[],
       exterior:[QF_114_mainIMG,QF_114_2,QF_114_3,QF_114_4,QF_114_5,QF_114_6,QF_114_7,QF_114_8,QF_114_9,QF_114_10,QF_114_11,QF_114_12,QF_114_13],
       landscap:[]
@@ -724,7 +760,7 @@ export const dataDigitalBestSeller = [
       title: 'QF-115',
       english: "Integrated design and implementation of the commercial Alsa's building in Salah Al-Din-Tikrit",
       arabic: "تصميم متكامل مع التنفيذ لعمارة الساعة التجارية في صلاح الدين-تكريت",
-      mainIMG: project18,
+      mainIMG: project35,
       interior:[],
       exterior:[QF_115_mainIMG,QF_115_2,QF_115_3,QF_115_4,QF_115_5,QF_115_6,QF_115_7,QF_115_8],
       landscap:[]
@@ -744,7 +780,7 @@ export const dataDigitalBestSeller = [
       title: 'QF-117',
       english: 'Interior and exterior design with implementation for a villa in Salah Al-Din',
       arabic: "تصميم خارجي وداخلي مع التنفي ,ذ لفيلا في صلاح الدين",
-      mainIMG: project20,
+      mainIMG: project36,
       interior:[QF_117_mainIMG_interior,QF_117_2_interior,QF_117_3_interior,QF_117_4_interior,QF_117_5_interior,QF_117_6_interior,QF_117_7_interior,QF_117_8_interior],
       exterior:[QF_117_mainIMG_exterior,QF_117_2_exterior,QF_117_3_exterior,QF_117_4_exterior,QF_117_5_exterior,QF_117_6_exterior,QF_117_7_exterior,QF_117_8_exterior],
       landscap:[]
@@ -754,7 +790,7 @@ export const dataDigitalBestSeller = [
       title: 'QF-118',
       english: 'Interior and exterior design and landscape with implementation for a villa in Salah Al-Din',
       arabic: "تصميم خارجي وداخلي و لاند سكيب مع التنفيذ لفيلا في صلاح الدين",
-      mainIMG: project21,
+      mainIMG: project45,
       interior:[QF_118_mainIMG_interior,QF_118_2_interior,QF_118_3_interior,QF_118_4_interior,QF_118_5_interior,QF_118_6_interior,QF_118_7_interior,QF_118_8_interior],
       exterior:[QF_118_mainIMG_exterior,QF_118_2_exterior,QF_118_3_exterior,QF_118_4_exterior,QF_118_5_exterior],
       landscap:[QF_118_mainIMG_landscap,QF_118_2_landscap,QF_118_3_landscap,QF_118_4_landscap,QF_118_5_landscap,QF_118_6_landscap,QF_118_7_landscap,QF_118_8_landscap,QF_118_9_landscap,QF_118_10_landscap,QF_118_11_landscap,QF_118_12_landscap,QF_118_13_landscap]
@@ -834,17 +870,7 @@ export const dataDigitalBestSeller = [
       landscap:[]
     },
 
-    {
-      id: 25,
-      title: 'QF-126',
-      english: "Design and implementation of Al-Hayba pharmacy in Kirkuk",
-      arabic:  "تصميم وتنفيذ صيدلية الهيبة المركزية في كركوك",
-      mainIMG: project29,
-      interior:[],
-      exterior:[QF_126_mainIMG,QF_126_2,QF_126_3,QF_126_4],
-      landscap:[]
-    },
-
+   
 
     {
       id: 26,
@@ -909,22 +935,9 @@ export const dataDigitalBestSeller = [
       title: 'QF-132',
       english: "",
       arabic: "",
-      mainIMG: project35,
+      mainIMG: project18,
       interior:[],
       exterior:[QF_132_mainIMG,QF_132_2,QF_132_3,QF_132_4,QF_132_5],
-      landscap:[]
-    },
-
-
-
-    {
-      id: 32,
-      title: 'QF-133',
-      english: "",
-      arabic: "",
-      mainIMG: project36,
-      interior:[],
-      exterior:[QF_133_mainIMG,QF_133_2,QF_133_3,QF_133_4],
       landscap:[]
     },
 
@@ -1022,7 +1035,7 @@ export const dataDigitalBestSeller = [
       title: 'QF-145',
       english: "",
       arabic: "",
-      mainIMG: project45,
+      mainIMG: project21,
       interior:[],
       exterior:[QF_145_mainIMG,QF_145_2,QF_145_3,QF_145_4],
       landscap:[]

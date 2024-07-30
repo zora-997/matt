@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { dataDigitalBestSeller } from "../data";
+import { dataInteriorImage } from "../data";
 
 function ServicesItem() {
   const { texts } = useContext(LanguageContext);
@@ -22,39 +23,50 @@ function ServicesItem() {
   const [finalSubtitle, setFinalSubtitle] = useState(`${subtitle}`);
   const [finalDescription, setFinalDescription] = useState(`${description}`);
 
+  // pshsan dani interior image
+  const [showInteriorSlider, setShowInteriorSlider] = useState(false);
+
   useEffect(() => {
     if (title === "architectural_design") {
       setFinalTitle(texts.architectural_design);
       setFinalSubtitle(texts.architectural_design_subtitle);
       setFinalDescription(texts.architectural_design_description);
+      setShowInteriorSlider(false);
     } else if (title === "structural_engineering") {
       setFinalTitle(texts.structural_engineering);
       setFinalSubtitle(texts.structural_engineering_subtitle);
       setFinalDescription(texts.structural_engineering_description);
+      setShowInteriorSlider(false);
     } else if (title === "mechanical_and_electrical") {
       setFinalTitle(texts.mechanical_and_electrical);
       setFinalSubtitle(texts.mechanical_and_electrical_subtitle);
       setFinalDescription(texts.mechanical_and_electrical_description);
+      setShowInteriorSlider(false);
     } else if (title === "civil_engineering") {
       setFinalTitle(texts.civil_engineering);
       setFinalSubtitle(texts.civil_engineering_subtitle);
       setFinalDescription(texts.civil_engineering_description);
+      setShowInteriorSlider(false);
     } else if (title === "construction_management") {
       setFinalTitle(texts.construction_management);
       setFinalSubtitle(texts.construction_management_subtitle);
       setFinalDescription(texts.construction_management_description);
+      setShowInteriorSlider(false);
     } else if (title === "renovation_and_remodeling") {
       setFinalTitle(texts.renovation_and_remodeling);
       setFinalSubtitle(texts.renovation_and_remodeling_subtitle);
       setFinalDescription(texts.renovation_and_remodeling_description);
+      setShowInteriorSlider(false);
     } else if (title === "interior_fit_outs") {
       setFinalTitle(texts.interior_fit_outs);
       setFinalSubtitle(texts.interior_fit_outs_subtitle);
       setFinalDescription(texts.interior_fit_outs_description);
+      setShowInteriorSlider(true);
     } else if (title === "infrastructure_development") {
       setFinalTitle(texts.infrastructure_development);
       setFinalSubtitle(texts.infrastructure_development_subtitle);
       setFinalDescription(texts.infrastructure_development_description);
+      setShowInteriorSlider(false);
     }
   }, [
     title,
@@ -162,18 +174,36 @@ function ServicesItem() {
         </div>
 
         <div className="max-w-[1820px] h-96 flex flex-col items-center justify-center ">
+          {/* pshan dani hamu image kan */}
           <Slider
             {...settings}
-            className="lg:w-[1200px] xsm:w-80 2xsm:w-72 w-52"
+            className="lg:w-[1200px]  xsm:w-80 2xsm:w-72 w-52"
           >
-            {dataDigitalBestSeller.map((item) => (
-              <div className="card w-full">
+            {!showInteriorSlider && dataDigitalBestSeller.map((item) => (
+              <div className="card w-full ">
                 <div className="">
-                  <img src={item.mainIMG} alt={item.title} className="w-[100%] h-[200px] object-cover" />
+                  <img
+                    src={item.mainIMG}
+                    alt={item.title}
+                    className="w-[100%] h-[200px] object-cover"
+                  />
+                </div>
+              </div>
+            ))}
+             {showInteriorSlider && dataInteriorImage.map((item,index) => (
+              <div className="card w-full ">
+                <div className="">
+                  <img
+                    src={item}
+                    alt={`${index}`}
+                    className="w-[100%] h-[200px] object-cover"
+                  />
                 </div>
               </div>
             ))}
           </Slider>
+
+       
 
           <a
             href="/all-projects"
