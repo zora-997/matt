@@ -179,7 +179,7 @@ function ServicesItem() {
             {...settings}
             className="lg:w-[1200px]  xsm:w-80 2xsm:w-72 w-52"
           >
-            {!showInteriorSlider && dataDigitalBestSeller.map((item) => (
+            {showInteriorSlider ? dataDigitalBestSeller.map((item) => (
               <div className="card w-full ">
                 <div className="">
                   <img
@@ -189,8 +189,7 @@ function ServicesItem() {
                   />
                 </div>
               </div>
-            ))}
-             {showInteriorSlider && dataInteriorImage.map((item,index) => (
+            )):  dataInteriorImage.map((item,index) => (
               <div className="card w-full ">
                 <div className="">
                   <img
@@ -201,6 +200,7 @@ function ServicesItem() {
                 </div>
               </div>
             ))}
+            
           </Slider>
 
        
