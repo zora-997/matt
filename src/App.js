@@ -21,7 +21,7 @@ function App() {
         // Simulate data fetching
         setTimeout(() => {
             setIsLoading(false);
-        }, 4000); // Replace with your actual data fetching logic
+        }, 3000); // Replace with your actual data fetching logic
     }, []);
 
   return (

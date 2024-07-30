@@ -143,10 +143,10 @@ function ServicesItem() {
   };
   return (
     <div className="w-full  bg-white flex  justify-center items-center">
-      <div className="">
-        <div className="w-full  h-[600px] bg-cover relative mt-24">
+      <div className=" ">
+        <div className="w-full  h-[400px] md:h-[600px] bg-cover relative mt-24">
           <img
-            className=" w-full h-[600px] z-[1] brightness-50 object-cover  absolute"
+            className=" w-full  h-[400px] md:h-[600px] z-[1] brightness-50 object-cover  absolute"
             src={QF_107_4}
             alt="Slideshow"
           />
@@ -156,7 +156,7 @@ function ServicesItem() {
               <a href="/">{texts.services}</a>
               {" > " + finalTitle}
             </h1>
-            <div className="flex flex-col justify-center items-center mb-5 ml-5 mr-5">
+            <div className="flex flex-col place-self-start  justify-center items-center mb-5 ml-5 mr-5">
               <h1 className="text-white mt-5 ml-5 text-3xl font-bold">
                 {finalTitle}
               </h1>
