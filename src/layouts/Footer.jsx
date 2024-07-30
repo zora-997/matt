@@ -55,14 +55,14 @@ export const Footer = () => {
       <img
         src={logo}
         alt="logo"
-        className="absolute md:hidden top-5 "
+        className="absolute md:hidden top-2   "
       />
 
       <div class="max-w-[1300px] m-auto   absolute bottom-6">
         <h1 className=" text-base md:text-lg md:w-[800px] text-center w-full px-2">
           {texts.footer_text}
         </h1>
-        <div className=" flex  flex-wrap md:w-[800px] w-full items-center md:justify-center  justify-start  mt-12 mb-10">
+        <div className=" flex text-base md:text-lg flex-wrap md:w-[800px] w-full items-center md:justify-center  justify-start  mt-12 mb-10">
           <FooterInfo
             text={"+9647725286029"}
             icon={tel_icon}
