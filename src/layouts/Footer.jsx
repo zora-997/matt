@@ -55,7 +55,7 @@ export const Footer = () => {
       <img
         src={logo}
         alt="logo"
-        className="absolute md:hidden "
+        className="absolute md:hidden top-5 "
       />
 
       <div class="max-w-[1300px] m-auto   absolute bottom-6">
