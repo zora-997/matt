@@ -24,7 +24,7 @@ export const Footer = () => {
       <img
         src={bg}
         alt="footer"
-        className="object-cover brightness-50 w-full h-[50rem] relative "
+        className="object-cover brightness-50 w-full lg:h-[50rem] h-[42rem] relative "
       />
       <img
         src={logo}
