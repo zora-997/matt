@@ -7,9 +7,8 @@ import Projects from "../pages/Projects";
 import ServicesItem from "../pages/ServicesItem";
 import AllProjects from "../pages/AllProjects";
 import ProjectItem from "../pages/ProjectItem";
-// import ImplementedProjects from "../pages/ImplementedProjects";
+import ImplementedProjects from "../pages/ImplementedProjects";
 import HomeButton from "../components/HomeButton";
-
 
 const AppRoutes = () => {
   return (
@@ -20,10 +19,10 @@ const AppRoutes = () => {
         element={
           <div className="h-full">
             <Hero /> <AboutSection />
-             {/* <ImplementedProjects /> */}
-              <Services />
+            {/* <ImplementedProjects /> */}
+            <Services />
             <Projects />
-             <HomeButton />
+            <HomeButton />
           </div>
         }
       />

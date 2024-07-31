@@ -7,6 +7,7 @@ import React, {
 } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 
+import bg_1 from "../assets/BG/BG1.jpg";
 import bg_2 from "../assets/BG/BG2.JPG";
 import bg_4 from "../assets/BG/BG4.JPG";
 import bg_5 from "../assets/BG/BG5.jpg";
@@ -33,7 +34,7 @@ const Hero = () => {
 
   const images = useMemo(
     //  bg_6, bg_7, bg_8, bg_9
-    () => [bg_5,bg_7,bg_2, bg_4, bg_3,bg_6,],
+    () => [bg_1,bg_5,bg_7,bg_2, bg_4, bg_3,bg_6,],
     []
   );
   // const textReveal = () => {
