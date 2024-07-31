@@ -35,21 +35,20 @@ const Navbar = () => {
 
   useEffect(() => {
     if (path === "/") {
-      setTextColor("graytext-gray-300");
+      setTextColor("text-gray-300");
     } else {
       setTextColor("black");
     }
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setColor("rgba(0, 0, 0, 0.5)");
-
-        setTextColor("graytext-gray-300");
+        setTextColor("text-gray-300");
       } else {
         setColor("transparent");
         if (path !== "/") {
           setTextColor("black");
         } else {
-          setTextColor("graytext-gray-300");
+          setTextColor("text-gray-300");
         }
       }
     };

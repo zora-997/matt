@@ -41,7 +41,7 @@ function AllProjects() {
             // am ankar taga akay ba parent bo image ka la jey aw div xwarawa bo away bche bo sar image kani aw basha
             // <a href={`/all-projects/${item.id}`} className='md:w-72 w-full md:h-[400px] h-[500px] md:m-1 m-5 bg-black hover:bg-opacity-60 relative cursor-pointer'>
             //  {/* </a> */}
-            <div key={i} onClick={()=> {setImage(item.mainIMG); setShow(true)}}  className="md:w-72 w-full md:h-[400px] h-[500px] md:m-1 m-5 bg-black hover:bg-opacity-60 relative cursor-pointer">
+            <div key={i} onClick={()=> {setImage(item.mainIMG); setShow(true)}}  className="md:w-72 w-full md:h-[400px] h-[500px] md:m-1 m-5  hover:bg-opacity-60 relative cursor-pointer">
               <img
               
                 src={item.mainIMG}
