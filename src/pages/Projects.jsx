@@ -85,7 +85,7 @@ const images = dataDigitalBestSeller.map((item) => ({
   return (
     <div
       id="projects"
-      className=" bg-white flex flex-col max-w-[1820px]  m-auto  items-center justify-center my-16 pb-10  p-4 "
+      className=" bg-white flex flex-col max-w-[1820px]  m-auto  items-center justify-center my-5 pb-10  p-4 "
     >
       <h1
         className="text-black  place-self-start font-bold sm:text-3xl text-lg "

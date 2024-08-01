@@ -24,7 +24,7 @@ function Services() {
   return (
     <div
       id="services"
-      className="flex flex-col max-w-[1820px]  mt-20 m-auto  items-center justify-center pb-10 text-center  pr-4 pl-4"
+      className="flex flex-col max-w-[1820px]  mt-20 m-auto  items-center justify-center  text-center  pr-4 pl-4"
     >
       {/* <hr
         className="border-[#307fc0] w-20 mt-3 sm:mb-16 mb-7"
@@ -50,9 +50,11 @@ function Services() {
           {texts.services_subtitle}
         </h1>
       </div>
+
+      
       <LineText text={texts.design_title} />
 
-      <div className="w-full flex flex-wrap justify-between md:justify-around md:items-center mt-14 mb-20">
+      <div className="w-full flex flex-wrap justify-between md:justify-around md:items-center my-14">
         <ServiceIcon
           text={"architectural_design"}
           icon={architectural_design_icon}
