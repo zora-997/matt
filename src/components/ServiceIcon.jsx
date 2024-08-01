@@ -39,7 +39,7 @@ function ServiceIcon({ text, icon, link, subtitle ,description}) {
       onClick={handleClick}
       className='flex  flex-col items-center justify-between mb-5 md:w-72 w-40 cursor-pointer'
     >
-      <img className={`md:w-32  md:h-32 `}
+      <img className={`md:w-32 w-20 sm:w-24 md:h-32 `}
         data-aos='fade-down'
       src={icon} alt="icon" />
       <h1 
