@@ -113,12 +113,30 @@ function ServicesItem() {
 
     responsive: [
       {
+        breakpoint: 1256,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
         breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
+          initialSlide: 2,
+          autoplaySpeed: 3000,
         },
       },
       {
@@ -142,55 +160,60 @@ function ServicesItem() {
     ],
   };
   return (
-    <div className="w-full  bg-white flex  justify-center items-center">
-      <div className=" ">
-        <div className="w-full  md:h-[600px] bg-cover relative mt-24">
+    <div className="w-full  bg-white flex   justify-center items-center">
+      <div className="w-full grid   ">
+        {/* top image and description */}
+        <div className=" md:h-[600px] bg-cover relative mt-24">
           <img
-            className=" w-full  md:h-[600px] z-[1] brightness-50 object-cover  absolute"
+            className=" w-full  md:h-[600px]  brightness-50 object-cover  "
             src={QF_107_4}
             alt="Slideshow"
           />
 
-          <div className="max-w-[1250px] h-full flex flex-col justify-between relative z-[2]">
-            <h1 className="text-white mt-5 ml-5 mr-5 text-lg font-semibold">
+          {/* text sarawa la gal naw image ka */}
+          <div className="w-full   ">
+            {/* header text */}
+            <h1 className="text-white absolute top-10 left-5 font-semibold text-lg">
               <a href="/">{texts.services}</a>
               {" > " + finalTitle}
             </h1>
-            <div className="flex flex-col place-self-start  justify-center items-center mb-5 ml-5 mr-5">
-              <h1 className="text-white mt-5 ml-5 text-3xl font-bold">
+
+            {/* titel and description */}
+            <div className=" relative">
+              <h1 className="text-white  text-xl lg:text-3xl font-bold absolute bottom-5 text-center  w-full">
                 {finalTitle}
               </h1>
-              <h1 className="text-white mt-5 text-lg font-semibold text-center md:w-[50%] w-full">
+              {/* <h1 className="text-white mt-5 text-base lg:text-lg  text-center md:w-[50%] w-full">
                 {finalSubtitle}
-              </h1>
+              </h1> */}
             </div>
           </div>
         </div>
 
-        <div className="max-w-[1250px]  flex flex-col  items-center justify-center mt-9 ml-2 mr-2 mb-20">
-          <h1 className="text-gray-700 mt-5 ml-5 mr-5 md:text-lg font-semibold text-center max-w-[900px]">
+        {/* text down image */}
+        <div className=" text-start mx-auto  my-16  w-full flex justify-center items-center ">
+          <h1 className="text-gray-700  ml-5 mr-5 md:text-xl  max-w-[1420px]  ">
             {finalDescription}
           </h1>
         </div>
 
-        <div className="max-w-[1820px] h-96 flex flex-col items-center justify-center ">
+        <div className="max-w-[1820px] mx-auto ">
           {/* pshan dani hamu image kan */}
           <Slider
             {...settings}
-            className="lg:w-[1200px]  xsm:w-80 2xsm:w-72 w-52"
+            className="lg:w-[970px] xl:w-[1400px] md:w-[700px]   xsm:w-80 2xsm:w-72 w-52"
           >
             {!showInteriorSlider ? dataDigitalBestSeller.map((item) => (
-              <div className="card w-full ">
-                <div className="">
+              <div className="card  ">
                   <img
                     src={item.mainIMG}
                     alt={item.title}
-                    className="w-[100%] h-[200px] object-cover"
+                    className="w-[100%] md:h-[300px] h-[200px] object-cover"
                   />
                 </div>
-              </div>
+            
             )):  dataInteriorImage.map((item,index) => (
-              <div className="card w-full ">
+              <div className="card max-w-[1820px] ">
                 <div className="">
                   <img
                     src={item}
@@ -207,11 +230,13 @@ function ServicesItem() {
 
           <a
             href="/all-projects"
-            className="flex w-full justify-center items-center text-black text-lg font-semibold mt-14 hover:underline cursor-pointer "
+            className="flex w-full justify-center items-center mb-14 text-black text-lg font-semibold mt-14 hover:underline cursor-pointer "
           >
             {texts.all_projects}
           </a>
         </div>
+
+      
       </div>
     </div>
   );

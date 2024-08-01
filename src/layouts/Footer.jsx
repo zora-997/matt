@@ -19,12 +19,12 @@ export const Footer = () => {
 
     <footer
       id="contact"
-      className="relative m-auto  flex  items-center justify-center  text-white"
+      className="relative m-auto w-full flex  items-center justify-center  text-white"
     >
       <img
         src={bg}
         alt="footer"
-        className="object-cover brightness-50 w-full lg:h-[50rem] h-[42rem] relative "
+        className="object-cover brightness-50 w-full  lg:h-[50rem] h-[42rem] relative "
       />
       <img
         src={logo}
@@ -36,13 +36,13 @@ export const Footer = () => {
         <h1 className=" text-base md:text-lg md:w-[800px] text-center w-full px-2">
           {texts.footer_text}
         </h1>
-        <div className=" flex text-base md:text-lg flex-wrap md:w-[800px] w-full items-center md:justify-center  justify-start  mt-12 mb-10">
+        <div className=" flex text-base md:text-lg flex-wrap md:w-[800px] w-full items-center md:justify-center  justify-start  my-12">
           <FooterInfo
             text={"+9647725286029"}
             icon={tel_icon}
             language={language}
           />
-          <div className={`flex  items-center  justify-items-center m-4 `}>
+          <div className={`flex  items-center  justify-items-center m-2 `}>
             <img
               className={`${language === "en" ? "mr-4" : "ml-4"} `}
               src={facebook_icon}
@@ -57,7 +57,7 @@ export const Footer = () => {
               Matt Company
             </a>
           </div>
-          <div className={`flex  items-center  justify-items-center m-4 `}>
+          <div className={`flex  items-center  justify-items-center m-2 `}>
             <img
               className={`${language === "en" ? "mr-4" : "ml-4"} `}
               src={instagram_icon}
