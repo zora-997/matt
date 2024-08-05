@@ -78,7 +78,7 @@ const Hero = () => {
 
 
     useEffect(() => {
-      if (bg_1.length && bg_5.length   ) {
+      if (bg_1&&bg_5&&bg_7&&bg_2&& bg_4&& bg_3&&bg_6) {
         setIsLoading(false)
       }
     }, []);
