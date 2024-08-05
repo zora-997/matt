@@ -34,13 +34,7 @@ const Hero = () => {
   const textLine = "-----------------------------------------------------";
   const charactersLine = textLine.split("");
 
-  const [loaded, setLoaded] = useState(false);
-  const [imagess, setImages] = useState([
-    'image1.jpg',
-    'image2.jpg',
-    'image3.jpg',
-    // add all images here
-  ]);
+  
 
   const images = useMemo(
     //  bg_6, bg_7, bg_8, bg_9
@@ -72,7 +66,7 @@ const Hero = () => {
       imageRef.current.src = imagesMemo[currentIndexRef.current];
       
     }
-    if (imagesMemo.length) {
+    if (imagesMemo.length === 7) {
       setIsLoading(false);
     }
   }, [imagesMemo]);

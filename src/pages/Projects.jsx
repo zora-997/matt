@@ -17,6 +17,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import "aos/dist/aos.css";
 import { dataDigitalBestSeller } from "../data";
+import Loader from "../components/Loader";
 
 
 function Projects() {
@@ -115,7 +116,8 @@ const images = dataDigitalBestSeller.map((item) => ({
                     className="w-[100%] md:h-[400px] h-[250px] object-cover"
                     src={item.mainIMG}
                     alt={item.title}
-                  />
+                  /> 
+                 
                 </div>
               </div>
             ))}
