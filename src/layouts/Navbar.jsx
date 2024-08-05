@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { useLocation, Link } from "react-router-dom";
-import logo_image from "../assets/matt 4.png";
+import logo_image from "../assets/matt-company.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -77,9 +77,9 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-40 ease-in duration-300 "
     >
-      <div className="max-w-[1820px] m-auto  flex justify-between items-center p-4 text-gray-300">
+      <div className="max-w-[1820px] m-auto  flex justify-between items-center  text-gray-300">
         <a href="/">
-          <img src={logo_image} alt="log" className="w-42 h-20" />
+          <img src={logo_image} alt="log" className="w-48 h-32 scale-150 " />
         </a>
 
 
