@@ -75,17 +75,17 @@ const Navbar = () => {
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-40 ease-in duration-300 "
+      className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
     >
-      <div className="max-w-[1820px] m-auto  flex justify-between items-center  text-gray-300">
+      <div className="max-w-[1820px] m-auto  flex justify-between items-center p-4   text-gray-300">
         <a href="/">
-          <img src={logo_image} alt="log" className="w-48 h-32 scale-150 " />
+          <img src={logo_image} alt="log" className="w-48 h-32 scale-150 absolute -left-5 -top-5" />
         </a>
 
 
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden sm:flex items-center"
+          className="hidden sm:flex items-center "
         >
           <li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
             {path !== "/" ? (
