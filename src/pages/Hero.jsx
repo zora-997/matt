@@ -34,6 +34,14 @@ const Hero = () => {
   const textLine = "-----------------------------------------------------";
   const charactersLine = textLine.split("");
 
+  const [loaded, setLoaded] = useState(false);
+  const [imagess, setImages] = useState([
+    'image1.jpg',
+    'image2.jpg',
+    'image3.jpg',
+    // add all images here
+  ]);
+
   const images = useMemo(
     //  bg_6, bg_7, bg_8, bg_9
     () => [bg_1,bg_5,bg_7,bg_2, bg_4, bg_3,bg_6,],
@@ -54,11 +62,18 @@ const Hero = () => {
   //   ))}
   // </h1>)
   // }
+
+  // loading page
+  const [isLoading, setIsLoading] = useState(true);
   const imagesMemo = useMemo(() => images, [images]);
   const nextImage = useCallback(() => {
     currentIndexRef.current = (currentIndexRef.current + 1) % imagesMemo.length;
     if (imageRef.current) { // Check if imageRef.current is not null
       imageRef.current.src = imagesMemo[currentIndexRef.current];
+      
+    }
+    if (imagesMemo.length) {
+      setIsLoading(false);
     }
   }, [imagesMemo]);
 
@@ -72,15 +87,16 @@ const Hero = () => {
     };
   }, [nextImage]);
 
-   // loading page
-   const [isLoading, setIsLoading] = useState(true);
+   
 
-   useEffect(() => {
-       // Simulate data fetching
-       setTimeout(() => {
-           setIsLoading(false);
-       }, 9000); // Replace with your actual data fetching logic
-   }, []);
+  //  useEffect(() => {
+  //      // Simulate data fetching
+  //      setTimeout(() => {
+  //          setIsLoading(false);
+  //      }, 9000); // Replace with your actual data fetching logic
+  //  }, []);
+
+
   return (
     <>
  {isLoading ? <Loader /> : (
