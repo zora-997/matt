@@ -7,7 +7,9 @@ import Projects from "../pages/Projects";
 import ServicesItem from "../pages/ServicesItem";
 import AllProjects from "../pages/AllProjects";
 import ProjectItem from "../pages/ProjectItem";
-import ImplementedProjects from "../pages/ImplementedProjects";
+import MattSchool from "../pages/MattSchool";
+import MattFurnishing from "../pages/MattFurnishing";
+// import ImplementedProjects from "../pages/ImplementedProjects";
 import HomeButton from "../components/HomeButton";
 
 const AppRoutes = () => {
@@ -31,6 +33,22 @@ const AppRoutes = () => {
         element={
           <div className="h-full">
             <About />
+          </div>
+        }
+      />
+      <Route
+        path="/mattschool"
+        element={
+          <div className="h-full">
+            <MattSchool />
+          </div>
+        }
+      />
+      <Route
+        path="/mattfurnishing"
+        element={
+          <div className="h-full">
+            <MattFurnishing />
           </div>
         }
       />

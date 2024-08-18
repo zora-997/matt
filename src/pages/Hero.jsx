@@ -31,7 +31,7 @@ const Hero = () => {
   const currentIndexRef = useRef(0);
   const text = texts.hero_title;
   const characters = text.split("");
-  const textLine = "-----------------------------------------------------";
+  const textLine = " -----------------------------------------------------";
   const charactersLine = textLine.split("");
 
   
@@ -117,12 +117,13 @@ const Hero = () => {
           {texts.hero_title}
         </h1> */}
 
+{/*  ---------------- dash border line ---------------------------- */}
         <h1 className="text-white  text-2xl max-w-md sm:text-4xl sm:max-w-3xl ">
           {charactersLine.map((char, index) => (
             <span
               key={index}
               className={`inline-block ${
-                index === 0 ? "" : "animate-text-reveal"
+                index === 0 || char === "" ? "" : "animate-text-reveal"
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -131,7 +132,7 @@ const Hero = () => {
           ))}
         </h1>
 
-        {/* text title hero */}
+        {/* ------------------- text title hero ----------------------------------*/}
         <h1 className="text-white font-bold border-l-2 border-t-2 p-2 text-2xl max-w-md sm:text-5xl sm:max-w-3xl 2xl:text-7xl 2xl:max-w-6xl ">
           {characters.map((char, index) => (
             <span
@@ -146,6 +147,7 @@ const Hero = () => {
           ))}
         </h1>
 
+{/*  ------------------ subtitle ---------------------------- */}
         <h1
           className="text-white text-sm md:text-lg max-w-md sm:max-w-3xl  p-2  mt-5"
           data-aos="fade-down"

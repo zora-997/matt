@@ -4,6 +4,8 @@ import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { useLocation, Link } from "react-router-dom";
 import logo_image from "../assets/matt-company.png";
+import logo_matt_school from "../assets/matt 4.png";
+
 
 const Navbar = () => {
   const location = useLocation();
@@ -34,7 +36,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (path === "/") {
+    if (path === "/" || path === "/mattschool") {
       setTextColor("text-gray-300");
     } else {
       setTextColor("black");
@@ -45,8 +47,8 @@ const Navbar = () => {
         setTextColor("text-gray-300");
       } else {
         setColor("transparent");
-        if (path !== "/") {
-          setTextColor("black");
+        if (path !== "/" || path !== "/mattschool") {
+          // setTextColor("black");
         } else {
           setTextColor("text-gray-300");
         }
@@ -72,6 +74,7 @@ const Navbar = () => {
   //   changeLanguage(lang);
   // };
 
+
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
@@ -79,13 +82,16 @@ const Navbar = () => {
     >
       <div className="max-w-[1820px] m-auto  flex justify-between items-center p-7    text-gray-300">
         <a href="/">
-          <img src={logo_image} alt="log" className="w-56 h-36 scale-150 absolute md:left-0 -left-7 -top-7 md:-top-6" />
+          <img
+            src={path === "/mattschool" ? logo_matt_school :logo_image}
+            alt="log"
+            className = {path === "/mattschool" ?"w-42 h-20": "w-56 h-36 scale-150 absolute md:left-0 -left-7 -top-7 md:-top-6"}
+          />
         </a>
-
 
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden sm:flex items-center "
+          className="hidden lg:flex items-center "
         >
           <li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
             {path !== "/" ? (
@@ -94,6 +100,9 @@ const Navbar = () => {
               <Link onClick={() => scrollToSection("/")}>{texts.home}</Link>
             )}
           </li>
+
+         
+
           <li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/about">{texts.about}</a>
@@ -103,6 +112,24 @@ const Navbar = () => {
               </Link>
             )}
           </li>
+
+{/* matt school */}
+<li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
+            
+              <Link to="/mattschool">
+                {texts.matt_school}
+              </Link>
+
+          </li>
+{/* matt funishing */}
+<li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
+           
+              <Link to="/mattfurnishing">
+                {texts.matt_furnishing}
+              </Link>
+
+          </li>
+
           <li className="p-4 text-md tracking-widest  font-arfont hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/">{texts.services}</a>
@@ -153,8 +180,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Button */}
-        <div className="flex sm:hidden z-10 items-center justify-center">
-
+        <div className="flex lg:hidden z-10 items-center justify-center">
           {/* Language buttons en */}
           {/* <button
             className={`border border-[#307fc0]  font-bold w-10 h-8 textColor ${
@@ -166,7 +192,7 @@ const Navbar = () => {
           >
             EN
           </button> */}
-{/* Language buttons ar */}
+          {/* Language buttons ar */}
           {/* <button
             className={`border border-[#307fc0] font-bold w-10 h-8  ${
               language === "ar"
@@ -184,7 +210,10 @@ const Navbar = () => {
             className={`${language === "en" ? "ml-4" : "mr-4"}`}
           >
             {nav ? (
-              <AiOutlineClose size={32} style={{ color: `graytext-gray-300` }} />
+              <AiOutlineClose
+                size={32}
+                style={{ color: `graytext-gray-300` }}
+              />
             ) : (
               <AiOutlineMenu size={32} style={{ color: `${textColor}` }} />
             )}
@@ -215,7 +244,7 @@ const Navbar = () => {
               {path !== "/" ? (
                 <a href="/about">{texts.about}</a>
               ) : (
-                <Link onClick={() => scrollToSection("about")}>
+                <Link>
                   {texts.about}
                 </Link>
               )}

@@ -15,8 +15,6 @@ export const Footer = () => {
   const { texts, language } = useContext(LanguageContext);
 
   return (
-    
-
     <footer
       id="contact"
       className="relative m-auto w-full flex  items-center justify-center  text-white"
@@ -26,11 +24,7 @@ export const Footer = () => {
         alt="footer"
         className="object-cover brightness-50 w-full  lg:h-[50rem] h-[42rem] relative "
       />
-      <img
-        src={logo}
-        alt="logo"
-        className="absolute md:hidden top-2   "
-      />
+      <img src={logo} alt="logo" className="absolute md:hidden top-2   " />
 
       <div className="max-w-[1300px] m-auto   absolute bottom-6">
         <h1 className=" text-base md:text-lg md:w-[800px] text-center w-full px-2">
@@ -91,10 +85,10 @@ export const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://mattiraq.com"
+            href="https://bluesoft.team"
             className="hover:underline"
           >
-            MattIraq
+            BLUE SOFT
           </a>
           . All Rights Reserved.
         </span>
