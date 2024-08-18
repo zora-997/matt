@@ -10,8 +10,8 @@ const ViewVideoModal = ({ isVisible, onClose, video }) => {
     
     if (!isVisible) return null;
     return (
-      <div onClick={()=> onClose(false)} className="  fixed inset-0 bg-black bg-opacity-40 backdrop-blur-md   flex justify-center    z-50">
-        <div className={`${video === nameVideo1 || video === nameVideo2 || video === nameVideo3 || video === nameVideo4   ? 'w-[1500px] place-self-center': 'w-[520px] '}   md:my-3 mx-3  p-3`} >
+      <div onClick={()=> onClose(false)} className="  fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm   flex justify-center    z-50">
+        <div className={`${video === nameVideo1 || video === nameVideo2 || video === nameVideo3 || video === nameVideo4   ? 'w-[1500px] place-self-center ': 'w-[520px] '}   md:my-3 mx-3`} >
         <video autoPlay loop className="">
                   <source
                     src={video}
