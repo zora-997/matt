@@ -75,7 +75,7 @@ const [showVideo, setShowVideo] = useState(false)
                   <source
                     src={videos.video}
                     type="video/mp4"
-                    className="w-full opacity-5 "
+                    className="w-full opacity-5  "
                   />
                 </video>
              

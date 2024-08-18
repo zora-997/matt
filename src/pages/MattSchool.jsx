@@ -18,7 +18,7 @@ const MattSchool = () => {
   </video>
       <div className="relative grid xl:flex xl:justify-start xl:items-center mx-auto  h-full max-w-[1720px] px-3  ">
       
-        <p className="max-w-3xl text-gray-300 md:text-lg text-sm absolute bottom-64 mx-3 xl:mx-0 font-semibold">
+        <p className="max-w-3xl text-gray-300 md:text-lg text-sm absolute bottom-72 mx-3 xl:mx-0 font-semibold">
           <span className=" md:text-5xl text-3xl font-bold text-white ">Matt School</span> <br/> <br/> The part of Matt company, the first architecture school in
           Iraq, It is an educational and scientific department of architecture
           Working to create a healthy environment in a cultured and developed
