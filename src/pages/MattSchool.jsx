@@ -18,8 +18,8 @@ const MattSchool = () => {
   </video>
       <div className="relative grid xl:flex xl:justify-start xl:items-center mx-auto  h-full max-w-[1720px] px-3  ">
       
-        <p className="max-w-3xl text-gray-300 text-lg  mt-40 mx-3 xl:mx-0 font-semibold">
-          <span className=" text-5xl font-bold text-white ">Matt School</span> <br/> <br/> The part of Matt company, the first architecture school in
+        <p className="max-w-3xl text-gray-300 md:text-lg text-base absolute bottom-60 mx-3 xl:mx-0 font-semibold">
+          <span className=" md:text-5xl text-3xl font-bold text-white ">Matt School</span> <br/> <br/> The part of Matt company, the first architecture school in
           Iraq, It is an educational and scientific department of architecture
           Working to create a healthy environment in a cultured and developed
           society through providing courses on the principles and components of
