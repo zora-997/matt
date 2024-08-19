@@ -254,12 +254,12 @@ const Navbar = () => {
             </li>
 
             {/* matt school */}
-            <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+            <li className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
                 <a href="/mattschool">{texts.matt_school}</a>
             </li>
 
             {/* matt funishing */}
-            <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+            <li className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
                 <a href="/mattfurnishing">{texts.matt_furnishing}</a>
             </li>
 
@@ -291,6 +291,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          
         </div>
       </div>
     </nav>
