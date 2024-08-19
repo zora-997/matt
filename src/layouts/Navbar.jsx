@@ -79,7 +79,6 @@ const Navbar = () => {
       className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
     >
       <div className="max-w-[1820px] m-auto  flex justify-between items-center p-7    text-gray-300">
-
         {/*  logo nav */}
         <a href="/">
           <img
@@ -93,7 +92,7 @@ const Navbar = () => {
           />
         </a>
 
-       {/* list nav bar  */}
+        {/* list nav bar  */}
         <ul
           style={{ color: `${textColor}` }}
           className="hidden lg:flex items-center "
@@ -120,13 +119,7 @@ const Navbar = () => {
 
           {/* matt school */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-            {path !== "/" ? (
               <a href="/mattschool">{texts.matt_school}</a>
-            ) : (
-              <Link onClick={() => scrollToSection("matt_school")}>
-                {texts.matt_school}
-              </Link>
-            )}
           </li>
 
           {/* matt funishing */}
@@ -134,7 +127,7 @@ const Navbar = () => {
             {path !== "/" ? (
               <a href="/mattfurnishing">{texts.matt_furnishing}</a>
             ) : (
-              <Link onClick={() => scrollToSection("matt_furnishing")}>
+              <Link >
                 {texts.matt_furnishing}
               </Link>
             )}
@@ -142,13 +135,7 @@ const Navbar = () => {
 
           {/* service */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-            {path !== "/" ? (
               <a href="/">{texts.services}</a>
-            ) : (
-              <Link onClick={() => scrollToSection("services")}>
-                {texts.service}
-              </Link>
-            )}
           </li>
 
           {/* all project */}
@@ -233,7 +220,6 @@ const Navbar = () => {
               <AiOutlineMenu size={32} style={{ color: `${textColor}` }} />
             )}
           </button>
-
         </div>
 
         {/* Mobile Menu */}
@@ -248,9 +234,7 @@ const Navbar = () => {
                 } w-full h-screen bg-black text-center ease-in duration-300 flex justify-center items-center`
           }
         >
-
           <ul>
-
             {/* home */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               {path !== "/" ? (
@@ -271,24 +255,12 @@ const Navbar = () => {
 
             {/* matt school */}
             <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-              {path !== "/" ? (
                 <a href="/mattschool">{texts.matt_school}</a>
-              ) : (
-                <Link onClick={() => scrollToSection("matt_school")}>
-                  {texts.matt_school}
-                </Link>
-              )}
             </li>
 
             {/* matt funishing */}
             <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-              {path !== "/" ? (
                 <a href="/mattfurnishing">{texts.matt_furnishing}</a>
-              ) : (
-                <Link onClick={() => scrollToSection("matt_furnishing")}>
-                  {texts.matt_furnishing}
-                </Link>
-              )}
             </li>
 
             {/* sevice */}
@@ -311,19 +283,15 @@ const Navbar = () => {
                 </Link>
               )}
             </li>
-             
+
             {/* contact  */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               <Link onClick={() => scrollToSection("contact")}>
                 {texts.contact}
               </Link>
             </li>
-
           </ul>
-
         </div>
-
-
       </div>
     </nav>
   );

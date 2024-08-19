@@ -12,13 +12,13 @@ const MattSchool = () => {
     autoPlay
     loop
     muted
-    playsInline
+    // playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
     <source src={web} type="video/mp4"  />
   </video>
       <div className="relative grid xl:flex xl:justify-start xl:items-center mx-auto  h-full max-w-[1720px] px-3  ">
-      
+      {/* lh */}
         <p className="max-w-3xl text-gray-300 md:text-lg text-sm absolute bottom-80 mx-3 xl:mx-0 font-semibold">
           <span className=" md:text-5xl text-3xl font-bold text-white ">Matt School</span> <br/> <br/> The part of Matt company, the first architecture school in
           Iraq, It is an educational and scientific department of architecture
