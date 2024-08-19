@@ -6,7 +6,6 @@ import { useLocation, Link } from "react-router-dom";
 import logo_image from "../assets/matt-company.png";
 import logo_matt_school from "../assets/matt 4.png";
 
-
 const Navbar = () => {
   const location = useLocation();
   const path = location.pathname;
@@ -74,25 +73,32 @@ const Navbar = () => {
   //   changeLanguage(lang);
   // };
 
-
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
     >
       <div className="max-w-[1820px] m-auto  flex justify-between items-center p-7    text-gray-300">
+
+        {/*  logo nav */}
         <a href="/">
           <img
-            src={path === "/mattschool" ? logo_matt_school :logo_image}
+            src={path === "/mattschool" ? logo_matt_school : logo_image}
             alt="log"
-            className = {path === "/mattschool" ?"w-42 h-20": "w-56 h-36 scale-150 absolute md:left-0 -left-7 -top-7 md:-top-6"}
+            className={
+              path === "/mattschool"
+                ? "w-42 h-20"
+                : "w-56 h-36 scale-150 absolute md:left-0 -left-7 -top-7 md:-top-6"
+            }
           />
         </a>
 
+       {/* list nav bar  */}
         <ul
           style={{ color: `${textColor}` }}
           className="hidden lg:flex items-center "
         >
+          {/* home */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/">{texts.home}</a>
@@ -101,8 +107,7 @@ const Navbar = () => {
             )}
           </li>
 
-         
-
+          {/* about */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/about">{texts.about}</a>
@@ -113,23 +118,29 @@ const Navbar = () => {
             )}
           </li>
 
-{/* matt school */}
-<li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-            
-              <Link to="/mattschool">
+          {/* matt school */}
+          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+            {path !== "/" ? (
+              <a href="/mattschool">{texts.matt_school}</a>
+            ) : (
+              <Link onClick={() => scrollToSection("matt_school")}>
                 {texts.matt_school}
               </Link>
-
+            )}
           </li>
-{/* matt funishing */}
-<li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-           
-              <Link to="/mattfurnishing">
+
+          {/* matt funishing */}
+          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+            {path !== "/" ? (
+              <a href="/mattfurnishing">{texts.matt_furnishing}</a>
+            ) : (
+              <Link onClick={() => scrollToSection("matt_furnishing")}>
                 {texts.matt_furnishing}
               </Link>
-
+            )}
           </li>
 
+          {/* service */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/">{texts.services}</a>
@@ -139,6 +150,8 @@ const Navbar = () => {
               </Link>
             )}
           </li>
+
+          {/* all project */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/all-projects">{texts.projects}</a>
@@ -148,6 +161,8 @@ const Navbar = () => {
               </Link>
             )}
           </li>
+
+          {/* contact */}
           <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
             <Link onClick={() => scrollToSection("contact")}>
               {texts.contact}
@@ -218,6 +233,7 @@ const Navbar = () => {
               <AiOutlineMenu size={32} style={{ color: `${textColor}` }} />
             )}
           </button>
+
         </div>
 
         {/* Mobile Menu */}
@@ -232,7 +248,10 @@ const Navbar = () => {
                 } w-full h-screen bg-black text-center ease-in duration-300 flex justify-center items-center`
           }
         >
+
           <ul>
+
+            {/* home */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/">{texts.home}</a>
@@ -240,31 +259,39 @@ const Navbar = () => {
                 <Link onClick={() => scrollToSection("/")}>{texts.home}</Link>
               )}
             </li>
+
+            {/* about */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/about">{texts.about}</a>
               ) : (
-                <Link>
-                  {texts.about}
+                <Link>{texts.about}</Link>
+              )}
+            </li>
+
+            {/* matt school */}
+            <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+              {path !== "/" ? (
+                <a href="/mattschool">{texts.matt_school}</a>
+              ) : (
+                <Link onClick={() => scrollToSection("matt_school")}>
+                  {texts.matt_school}
                 </Link>
               )}
             </li>
-            {/* matt school */}
-<li onClick={()=> setNav(false)}  className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
-            
-            <Link  to="/mattschool">
-              {texts.matt_school}
-            </Link>
 
-        </li>
-{/* matt funishing */}
-<li onClick={()=> setNav(false)} className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
-         
-            <Link  to="/mattfurnishing">
-              {texts.matt_furnishing}
-            </Link>
+            {/* matt funishing */}
+            <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+              {path !== "/" ? (
+                <a href="/mattfurnishing">{texts.matt_furnishing}</a>
+              ) : (
+                <Link onClick={() => scrollToSection("matt_furnishing")}>
+                  {texts.matt_furnishing}
+                </Link>
+              )}
+            </li>
 
-        </li>
+            {/* sevice */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/">{texts.services}</a>
@@ -274,6 +301,7 @@ const Navbar = () => {
                 </Link>
               )}
             </li>
+            {/* all project */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/all-projects">{texts.projects}</a>
@@ -283,13 +311,19 @@ const Navbar = () => {
                 </Link>
               )}
             </li>
+             
+            {/* contact  */}
             <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
               <Link onClick={() => scrollToSection("contact")}>
                 {texts.contact}
               </Link>
             </li>
+
           </ul>
+
         </div>
+
+
       </div>
     </nav>
   );

@@ -1,8 +1,8 @@
 import React from 'react'
 
 const ViewVideoModal = ({ isVisible, onClose, video }) => {
-
-    console.log(video);
+;
+// it's useing for some video design  beacuse have  adiffrent sizes.
     const nameVideo1 = "/static/media/mattschoolvideo5.8efbd62fde3a55728ff4.MP4";
     const nameVideo2 = "/static/media/mattschoolvideo6.836c644642bcaeea3af3.MP4";
     const nameVideo3 = "/static/media/mattschoolvideo7.c511861a0c700e711bea.MP4";
@@ -13,7 +13,7 @@ const ViewVideoModal = ({ isVisible, onClose, video }) => {
       <div onClick={()=> onClose(false)} className="  fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm   flex justify-center    z-50">
         <div className={`${video === nameVideo1 || video === nameVideo2 || video === nameVideo3 || video === nameVideo4   ? 'w-[1500px] place-self-center ': 'w-[520px] '} p-3   `} >
         <button className='text-white text-xl md:hidden flex w-full justify-center' onClick={() => onClose(false)}> <span className='rounded-full border border-gray-500 mb-1  bg-gray-400 px-2.5 '>X</span>  </button>
-        <video playsInline autoPlay loop className="border border-[#307fc0] ">
+        <video  autoPlay loop className="border border-[#307fc0] ">
                   <source
                     src={video}
                     type="video/mp4"

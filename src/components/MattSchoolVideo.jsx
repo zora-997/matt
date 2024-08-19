@@ -62,7 +62,7 @@ const [showVideo, setShowVideo] = useState(false)
   return (
     <div className="max-w-[1720px] mx-auto  px-3 my-10">
      {showVideo ? <ViewVideoModal video={video} isVisible={showVideo} onClose={setShowVideo} />: null} 
-      <h1 className="text-black font-bold text-4xl my-8">
+      <h1 className="text-black font-bold text-4xl md:my-8">
         Matt School Our Course
       </h1>
       <div className="grid md:grid-cols-2  w-full   ">
@@ -70,7 +70,7 @@ const [showVideo, setShowVideo] = useState(false)
           return (
             <div key={videos.id} className="w-fullscale-90  ">
               
-              <h1 className="  text-xl text-gray-400 pl-3 py-16  ">{videos.h1}</h1>
+              <h1 className="  text-xl text-gray-400 pl-3 md:py-16 py-6  ">{videos.h1}</h1>
                 <video onClick={()=> {setVideo(videos.video); setShowVideo(true)}} autoPlay loop muted className="cursor-pointer w-full p-3">
                   <source
                     src={videos.video}
