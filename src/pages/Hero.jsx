@@ -8,13 +8,13 @@ import React, {
 } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 
-import bg_1 from "../assets/BG/BG1.jpg";
+import bg_1 from "../assets/BG/BGG1.jpg";
 import bg_2 from "../assets/BG/BGG2.jpg";
 import bg_4 from "../assets/BG/BGG4.jpg";
-import bg_5 from "../assets/BG/BG5.jpg";
-import bg_3 from "../assets/BG/BG3.jpg";
-import bg_6 from "../assets/BG/BG6.jpg";
-import bg_7 from "../assets/BG/BG7.jpg";
+import bg_5 from "../assets/BG/BGG5.jpg";
+import bg_3 from "../assets/BG/BGG3.jpg";
+import bg_6 from "../assets/BG/BGG6.jpg";
+import bg_7 from "../assets/BG/BGG7.jpg";
 
 // import bg_5 from "../assets/BG/IMG_1658.jpg";
 // import bg_6 from "../assets/BG/IMG_3647.jpg";
