@@ -9,10 +9,10 @@ import React, {
 import { LanguageContext } from "../Context/LanguageContext";
 
 import bg_1 from "../assets/BG/BG1.jpg";
-import bg_2 from "../assets/BG/BG2.JPG";
-import bg_4 from "../assets/BG/BG4.JPG";
+import bg_2 from "../assets/BG/BG2.jpg";
+import bg_4 from "../assets/BG/BG4.jpg";
 import bg_5 from "../assets/BG/BG5.jpg";
-import bg_3 from "../assets/BG/BG3.JPG";
+import bg_3 from "../assets/BG/BG3.jpg";
 import bg_6 from "../assets/BG/BG6.jpg";
 import bg_7 from "../assets/BG/BG7.jpg";
 
