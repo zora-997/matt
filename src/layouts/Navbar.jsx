@@ -83,7 +83,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
     >
-      <div className="max-w-[1820px] m-auto  flex justify-between items-center     text-gray-300">
+      <div className="max-w-[1820px] m-auto  flex justify-between items-center  mr-3   text-gray-300">
         {/*  logo nav */}
         <a href="/">
           <img
