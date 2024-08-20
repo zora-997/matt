@@ -5,6 +5,7 @@ import { LanguageContext } from "../Context/LanguageContext";
 import { useLocation, Link } from "react-router-dom";
 import logo_image from "../assets/matt-company.png";
 import logo_matt_school from "../assets/matt 4.png";
+ import mattFurnishing from "../assets/matt-projects/mattFurnishing.PNG";
 
 const Navbar = () => {
   const location = useLocation();
@@ -35,7 +36,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (path === "/" || path === "/mattschool") {
+    if (path === "/" || path === "/mattschool" || path === "/mattfurnishing") {
       setTextColor("text-gray-300");
     } else {
       setTextColor("black");
@@ -46,7 +47,11 @@ const Navbar = () => {
         setTextColor("text-gray-300");
       } else {
         setColor("transparent");
-        if (path !== "/" || path !== "/mattschool") {
+        if (
+          path !== "/" ||
+          path !== "/mattschool" ||
+          path !== "/mattfurnishing"
+        ) {
           // setTextColor("black");
         } else {
           setTextColor("text-gray-300");
@@ -78,16 +83,16 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
     >
-      <div className="max-w-[1820px] m-auto  flex justify-between items-center p-7    text-gray-300">
+      <div className="max-w-[1820px] m-auto  flex justify-between items-center     text-gray-300">
         {/*  logo nav */}
         <a href="/">
           <img
-            src={path === "/mattschool" ? logo_matt_school : logo_image}
+           src={path === "/mattschool" ? logo_matt_school : path === "/mattfurnishing" ? mattFurnishing : logo_image}
             alt="log"
             className={
               path === "/mattschool"
                 ? "w-42 h-20"
-                : "w-56 h-36 scale-150 absolute md:left-0 -left-7 -top-7 md:-top-6"
+                :path === "/mattfurnishing" ? "w-44 h-28 ": "w-48 h-32 scale-150 "
             }
           />
         </a>
@@ -95,10 +100,10 @@ const Navbar = () => {
         {/* list nav bar  */}
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden lg:flex items-center "
+          className="hidden lg:flex items-center gap-5 text-md tracking-widest  font-semibold "
         >
           {/* home */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+          <li className="  hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/">{texts.home}</a>
             ) : (
@@ -107,7 +112,7 @@ const Navbar = () => {
           </li>
 
           {/* about */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+          <li className="  hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/about">{texts.about}</a>
             ) : (
@@ -118,28 +123,28 @@ const Navbar = () => {
           </li>
 
           {/* matt school */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-              <a href="/mattschool">{texts.matt_school}</a>
+          <li className="  hover:text-[#307fc0]">
+            <a href="/mattschool">{texts.matt_school}</a>
           </li>
 
           {/* matt funishing */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+          <li className="  hover:text-[#307fc0]">
+            <a href="/mattfurnishing">{texts.matt_furnishing}</a>
+          </li>
+
+          {/* service */}
+          <li className="  hover:text-[#307fc0]">
             {path !== "/" ? (
-              <a href="/mattfurnishing">{texts.matt_furnishing}</a>
+              <a href="/services">{texts.services}</a>
             ) : (
-              <Link >
-                {texts.matt_furnishing}
+              <Link onClick={() => scrollToSection("services")}>
+                {texts.services}
               </Link>
             )}
           </li>
 
-          {/* service */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
-              <a href="/">{texts.services}</a>
-          </li>
-
           {/* all project */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+          <li className="  hover:text-[#307fc0]">
             {path !== "/" ? (
               <a href="/all-projects">{texts.projects}</a>
             ) : (
@@ -150,7 +155,7 @@ const Navbar = () => {
           </li>
 
           {/* contact */}
-          <li className="p-4 text-md tracking-widest  font-bold hover:text-[#307fc0]">
+          <li className="  hover:text-[#307fc0]">
             <Link onClick={() => scrollToSection("contact")}>
               {texts.contact}
             </Link>
@@ -226,7 +231,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? `sm:hidden absolute top-0 ${
+              ? `lg:hidden absolute top-0 ${
                   language === "en" ? "left-0" : "right-0"
                 } w-full h-screen bg-black text-center ease-in duration-300 flex justify-center items-center`
               : `sm:hidden absolute top-0 ${
@@ -234,9 +239,9 @@ const Navbar = () => {
                 } w-full h-screen bg-black text-center ease-in duration-300 flex justify-center items-center`
           }
         >
-          <ul>
+          <ul className="flex flex-col gap-5 text-lg font-semibold">
             {/* home */}
-            <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
+            <li className="  hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/">{texts.home}</a>
               ) : (
@@ -245,7 +250,7 @@ const Navbar = () => {
             </li>
 
             {/* about */}
-            <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
+            <li className="  hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/about">{texts.about}</a>
               ) : (
@@ -254,17 +259,17 @@ const Navbar = () => {
             </li>
 
             {/* matt school */}
-            <li className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
-                <a href="/mattschool">{texts.matt_school}</a>
+            <li className="  hover:text-[#307fc0] ">
+              <a href="/mattschool">{texts.matt_school}</a>
             </li>
 
             {/* matt funishing */}
-            <li className="p-4 text-lg tracking-widest  font-bold hover:text-[#307fc0]">
-                <a href="/mattfurnishing">{texts.matt_furnishing}</a>
+            <li className="  hover:text-[#307fc0]">
+              <a href="/mattfurnishing">{texts.matt_furnishing}</a>
             </li>
 
             {/* sevice */}
-            <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
+            <li className="  hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/">{texts.services}</a>
               ) : (
@@ -274,7 +279,7 @@ const Navbar = () => {
               )}
             </li>
             {/* all project */}
-            <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
+            <li className="  hover:text-[#307fc0]">
               {path !== "/" ? (
                 <a href="/all-projects">{texts.projects}</a>
               ) : (
@@ -285,13 +290,12 @@ const Navbar = () => {
             </li>
 
             {/* contact  */}
-            <li className="p-4 text-lg font-bold hover:text-[#307fc0]">
+            <li className="  hover:text-[#307fc0]">
               <Link onClick={() => scrollToSection("contact")}>
                 {texts.contact}
               </Link>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>

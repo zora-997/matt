@@ -34,28 +34,14 @@ const Hero = () => {
   const charactersLine = textLine.split("");
 
   const images = useMemo(
-    //  bg_6, bg_7, bg_8, bg_9
+
     () => [bg_1, bg_5, bg_7, bg_2, bg_4, bg_3, bg_6],
     []
   );
-  // const textReveal = () => {
-  //   return(<h1 className="text-3xl font-bold text-white">
-  //   {characters.map((char, index) => (
-  //     <span
-  //       key={index}
-  //       className={`inline-block ${
-  //         index === 0 ? "" : "animate-text-reveal"
-  //       }`}
-  //       style={{ animationDelay: `${index * 0.1}s` }}
-  //     >
-  //       {char}
-  //     </span>
-  //   ))}
-  // </h1>)
-  // }
+ 
 
   // loading page
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const imagesMemo = useMemo(() => images, [images]);
   const nextImage = useCallback(() => {
     currentIndexRef.current = (currentIndexRef.current + 1) % imagesMemo.length;
@@ -63,11 +49,10 @@ const Hero = () => {
       // Check if imageRef.current is not null
       imageRef.current.src = imagesMemo[currentIndexRef.current];
     }
-    if (imagesMemo.length === 7) {
-      setIsLoading(false);
-    }
+   
   }, [imagesMemo]);
 
+  // next image
   useEffect(() => {
     const interval = setInterval(() => {
       nextImage();
@@ -78,16 +63,20 @@ const Hero = () => {
     };
   }, [nextImage]);
 
-  //  useEffect(() => {
-  //      // Simulate data fetching
-  //      setTimeout(() => {
-  //          setIsLoading(false);
-  //      }, 9000); // Replace with your actual data fetching logic
-  //  }, []);
+
+  // loading
+  useEffect(() => {
+    const   
+  load = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+ 
+    return () => clearTimeout(load);
+  }, []);
 
   return (
     <>
-      {isLoading ? (
+      {loading ? (
         <Loader />
       ) : (
         <div className="w-full   h-[100%]  ">

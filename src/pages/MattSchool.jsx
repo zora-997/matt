@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import background from "../assets/matt-projects/matt 4.png";
 import MattSchoolVideo from "../components/MattSchoolVideo";
 // import background2 from "../assets/matt-projects/matt-company-logoo.png";
 import web from "../assets/video/mattschoolvideo1.MP4";
+import Loader from "../components/Loader";
 
 const MattSchool = () => {
+
+const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const   
+  load = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+ 
+    return () => clearTimeout(load);
+  }, []);
   return (
+
+<>
+{loading ? <Loader/> : 
     <div id="mattschool">
     <div className=" h-screen xl:mt-0 mt-56  ">
       <video
@@ -40,10 +55,11 @@ const MattSchool = () => {
 
       </div>
     </div>
-
-
+    {/* matt video */}
      <MattSchoolVideo />
       </div>
+      }
+      </>
   );
 };
 
