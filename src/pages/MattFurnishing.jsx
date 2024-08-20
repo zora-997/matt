@@ -53,11 +53,11 @@ const MattFurnishing = () => {
            {/*  section name */}
             </h1>
 
-              <span className="border-t border-l p-0.5  md:text-5xl text-3xl font-bold text-white ">
+              <span className="border-t border-l p-1.5  md:text-5xl text-3xl font-bold text-white ">
                Matt Furnishing
               </span>{" "}
               <br /> <br />
-              <p className="border-l border-b p-1">The part of Mat Company that works on the supply and manufacture
+              <p className="border-l border-b p-2">The part of Mat Company that works on the supply and manufacture
               of household appliances by importing from abroad and supplying
               domestically. Through the experienced and professional staff of
               the company. Matt Furnishing works to create a comfortable and
