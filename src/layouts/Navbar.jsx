@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (path === "/" || path === "/mattschool" || path === "/mattfurnishing") {
+    if (path === "/" || path === "/mattschool" || path === "/mattfurnishing" ) {
       setTextColor("text-gray-300");
     } else {
       setTextColor("black");
@@ -51,11 +51,11 @@ const Navbar = () => {
           path !== "/" ||
           path !== "/mattschool" ||
           path !== "/mattfurnishing"
+          
         ) {
           // setTextColor("black");
-        } else {
           setTextColor("text-gray-300");
-        }
+        } 
       }
     };
 
@@ -135,7 +135,7 @@ const Navbar = () => {
           {/* service */}
           <li className="  hover:text-[#307fc0]">
             {path !== "/" ? (
-              <a href="/services">{texts.services}</a>
+              <a href="/">{texts.services}</a>
             ) : (
               <Link onClick={() => scrollToSection("services")}>
                 {texts.services}

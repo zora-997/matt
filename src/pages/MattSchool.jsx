@@ -67,7 +67,7 @@ const MattSchool = () => {
                 society to create a peaceful life.
               </p>
               {/*  ---------------- dash border line ---------------------------- */}
-              <h1 className="text-white my-1 text-2xl max-w-md sm:text-4xl sm:max-w-3xl ">
+              <h1 className="text-white mb-2.5 text-2xl max-w-md sm:text-4xl sm:max-w-3xl ">
                 {charactersLine2.map((char, index) => (
                   <span
                     key={index}
