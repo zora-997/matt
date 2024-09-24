@@ -17,7 +17,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import "aos/dist/aos.css";
 import { dataDigitalBestSeller } from "../data";
-import Loader from "../components/Loader";
+
 
 
 function Projects() {

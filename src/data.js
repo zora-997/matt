@@ -76,12 +76,363 @@ import project73 from "./assets/matt-projects/project-73.jpg"
 import project74 from "./assets/matt-projects/project-74.jpg"
 import project75 from "./assets/matt-projects/project-75.jpg"
 
+// interiro
+import pro76   from "./assets/matt-projects/pro76.jpg"
+import pro77   from "./assets/matt-projects/pro77.jpg"
+import pro78   from "./assets/matt-projects/pro78.jpg"
+import pro79   from "./assets/matt-projects/pro79.jpg"
+import pro80_1 from "./assets/matt-projects/pro80 (1).jpg"
+import pro80_2 from "./assets/matt-projects/pro80 (2).jpg"
+
+import pro81_1 from "./assets/matt-projects/pro81 (1).jpg"
+import pro81_2 from "./assets/matt-projects/pro81 (2).jpg"
+import pro81_3  from "./assets/matt-projects/pro81 (3).jpg"
+import pro81_4  from "./assets/matt-projects/pro81 (4).jpg"
+import pro81_5  from "./assets/matt-projects/pro81 (5).jpg"
+import pro81_6  from "./assets/matt-projects/pro81 (6).jpg"
+import pro81_7  from "./assets/matt-projects/pro81 (7).jpg"
+import pro81_8  from "./assets/matt-projects/pro81 (8).jpg"
+import pro81_9  from "./assets/matt-projects/pro81 (9).jpg"
+import pro81_10 from "./assets/matt-projects/pro81 (10).jpg"
+
+import pro81_11 from "./assets/matt-projects/pro81 (11).jpg"
+import pro81_12 from "./assets/matt-projects/pro81 (12).jpg"
+import pro81_13 from "./assets/matt-projects/pro81 (13).jpg"
+import pro81_14 from "./assets/matt-projects/pro81 (14).jpg"
+import pro81_15 from "./assets/matt-projects/pro81 (15).jpg"
+import pro81_16 from "./assets/matt-projects/pro81 (16).jpg"
+import pro81_17 from "./assets/matt-projects/pro81 (17).jpg"
+import pro81_18 from "./assets/matt-projects/pro81 (18).jpg"
+
+// intrrior
+import pro82_1 from "./assets/matt-projects/pro82 (1).jpg"
+import pro82_2 from "./assets/matt-projects/pro82 (2).jpg"
+import pro82_3  from "./assets/matt-projects/pro82 (3).jpg"
+import pro82_4  from "./assets/matt-projects/pro82 (4).jpg"
+import pro82_5  from "./assets/matt-projects/pro82 (5).jpg"
+import pro82_6  from "./assets/matt-projects/pro82 (6).jpg"
+import pro82_7  from "./assets/matt-projects/pro82 (7).jpg"
+import pro82_8  from "./assets/matt-projects/pro82 (8).jpg"
+import pro82_9  from "./assets/matt-projects/pro82 (9).jpg"
+import pro82_10 from "./assets/matt-projects/pro82 (10).jpg"
+import pro82_11 from "./assets/matt-projects/pro82 (11).jpg"
+import pro82_12 from "./assets/matt-projects/pro82 (12).jpg"
+import pro82_13 from "./assets/matt-projects/pro82 (13).jpg"
+import pro82_14 from "./assets/matt-projects/pro82 (14).jpg"
+import pro82_15 from "./assets/matt-projects/pro82 (15).jpg"
+
+// interior
+import pro83_1 from "./assets/matt-projects/pro83 (1).jpg"
+import pro83_2 from "./assets/matt-projects/pro83 (2).jpg"
+import pro83_3  from "./assets/matt-projects/pro83 (3).jpg"
+import pro83_4  from "./assets/matt-projects/pro83 (4).jpg"
+import pro83_5  from "./assets/matt-projects/pro83 (5).jpg"
+import pro83_6  from "./assets/matt-projects/pro83 (6).jpg"
+import pro83_7  from "./assets/matt-projects/pro83 (7).jpg"
+import pro83_8  from "./assets/matt-projects/pro83 (8).jpg"
+import pro83_9  from "./assets/matt-projects/pro83 (9).jpg"
+import pro83_10 from "./assets/matt-projects/pro83 (10).jpg"
+import pro83_11 from "./assets/matt-projects/pro83 (11).jpg"
+import pro83_12 from "./assets/matt-projects/pro83 (12).jpg"
+import pro83_13 from "./assets/matt-projects/pro83 (13).jpg"
+import pro83_14 from "./assets/matt-projects/pro83 (14).jpg"
+import pro83_15 from "./assets/matt-projects/pro83 (15).jpg"
+import pro83_16 from "./assets/matt-projects/pro83 (16).jpg"
+import pro83_17 from "./assets/matt-projects/pro83 (17).jpg"
+import pro83_18 from "./assets/matt-projects/pro83 (18).jpg"
+import pro83_19 from "./assets/matt-projects/pro83 (19).jpg"
+import pro83_20 from "./assets/matt-projects/pro83 (20).jpg"
+import pro83_21 from "./assets/matt-projects/pro83 (21).jpg"
+
+// interior
+import pro84_1 from "./assets/matt-projects/pro84 (1).jpg"
+import pro84_2 from "./assets/matt-projects/pro84 (2).jpg"
+import pro84_3  from "./assets/matt-projects/pro84 (3).jpg"
+import pro84_4  from "./assets/matt-projects/pro84 (4).jpg"
+import pro84_5  from "./assets/matt-projects/pro84 (5).jpg"
+import pro84_6  from "./assets/matt-projects/pro84 (6).jpg"
+import pro84_7  from "./assets/matt-projects/pro84 (7).jpg"
+import pro84_8  from "./assets/matt-projects/pro84 (8).jpg"
+import pro84_9  from "./assets/matt-projects/pro84 (9).jpg"
+import pro84_10 from "./assets/matt-projects/pro84 (10).jpg"
+import pro84_11 from "./assets/matt-projects/pro84 (11).jpg"
+import pro84_12 from "./assets/matt-projects/pro84 (12).jpg"
+import pro84_13 from "./assets/matt-projects/pro84 (13).jpg"
+import pro84_14 from "./assets/matt-projects/pro84 (14).jpg"
+import pro84_15 from "./assets/matt-projects/pro84 (15).jpg"
+import pro84_16 from "./assets/matt-projects/pro84 (16).jpg"
+import pro84_17 from "./assets/matt-projects/pro84 (17).jpg"
+import pro84_18 from "./assets/matt-projects/pro84 (18).jpg"
+import pro84_19 from "./assets/matt-projects/pro84 (19).jpg"
+import pro84_20 from "./assets/matt-projects/pro84 (20).jpg"
+
+// interior
+import pro85_1 from "./assets/matt-projects/pro85 (1).jpg"
+import pro85_2 from "./assets/matt-projects/pro85 (2).jpg"
+import pro85_3  from "./assets/matt-projects/pro85 (3).jpg"
+import pro85_4  from "./assets/matt-projects/pro85 (4).jpg"
+import pro85_5  from "./assets/matt-projects/pro85 (5).jpg"
+import pro85_6  from "./assets/matt-projects/pro85 (6).jpg"
+import pro85_7  from "./assets/matt-projects/pro85 (7).jpg"
+import pro85_8  from "./assets/matt-projects/pro85 (8).jpg"
+import pro85_9  from "./assets/matt-projects/pro85 (9).jpg"
+import pro85_10 from "./assets/matt-projects/pro85 (10).jpg"
+import pro85_11 from "./assets/matt-projects/pro85 (11).jpg"
+import pro85_12 from "./assets/matt-projects/pro85 (12).jpg"
+import pro85_13 from "./assets/matt-projects/pro85 (13).jpg"
+import pro85_14 from "./assets/matt-projects/pro85 (14).jpg"
+import pro85_15 from "./assets/matt-projects/pro85 (15).jpg"
+import pro85_16 from "./assets/matt-projects/pro85 (16).jpg"
+import pro85_17 from "./assets/matt-projects/pro85 (17).jpg"
+import pro85_18 from "./assets/matt-projects/pro85 (18).jpg"
+import pro85_19 from "./assets/matt-projects/pro85 (19).jpg"
+import pro85_20 from "./assets/matt-projects/pro85 (20).jpg"
+import pro85_21 from "./assets/matt-projects/pro85 (21).jpg"
+import pro85_22 from "./assets/matt-projects/pro85 (22).jpg"
+import pro85_23 from "./assets/matt-projects/pro85 (23).jpg"
+import pro85_24 from "./assets/matt-projects/pro85 (24).jpg"
+import pro85_25 from "./assets/matt-projects/pro85 (25).jpg"
+
+// interior
+import pro86_1 from "./assets/matt-projects/pro86 (1).jpg"
+import pro86_2 from "./assets/matt-projects/pro86 (2).jpg"
+import pro86_3  from "./assets/matt-projects/pro86 (3).jpg"
+import pro86_4  from "./assets/matt-projects/pro86 (4).jpg"
+import pro86_5  from "./assets/matt-projects/pro86 (5).jpg"
+import pro86_6  from "./assets/matt-projects/pro86 (6).jpg"
+import pro86_7  from "./assets/matt-projects/pro86 (7).jpg"
+import pro86_8  from "./assets/matt-projects/pro86 (8).jpg"
+import pro86_9  from "./assets/matt-projects/pro86 (9).jpg"
+import pro86_10 from "./assets/matt-projects/pro86 (10).jpg"
+import pro86_11 from "./assets/matt-projects/pro86 (11).jpg"
+import pro86_12 from "./assets/matt-projects/pro86 (12).jpg"
+import pro86_13 from "./assets/matt-projects/pro86 (13).jpg"
+import pro86_14 from "./assets/matt-projects/pro86 (14).jpg"
+import pro86_15 from "./assets/matt-projects/pro86 (15).jpg"
+import pro86_16 from "./assets/matt-projects/pro86 (16).jpg"
+import pro86_17 from "./assets/matt-projects/pro86 (17).jpg"
+import pro86_18 from "./assets/matt-projects/pro86 (18).jpg"
+import pro86_19 from "./assets/matt-projects/pro86 (19).jpg"
+import pro86_20 from "./assets/matt-projects/pro86 (20).jpg"
+import pro86_21 from "./assets/matt-projects/pro86 (21).jpg"
+import pro86_22 from "./assets/matt-projects/pro86 (22).jpg"
+import pro86_23 from "./assets/matt-projects/pro86 (23).jpg"
+import pro86_24 from "./assets/matt-projects/pro86 (24).jpg"
+import pro86_25 from "./assets/matt-projects/pro86 (25).jpg"
+import pro86_26 from "./assets/matt-projects/pro86 (26).jpg"
+import pro86_27 from "./assets/matt-projects/pro86 (27).jpg"
+
+// interiro
+import pro86_1png from "./assets/matt-projects/pro86 (1).png"
+import pro86_2png from "./assets/matt-projects/pro86 (2).png"
+import pro86_3png from "./assets/matt-projects/pro86 (3).png"
+import pro86_4png from "./assets/matt-projects/pro86 (4).png"
+import pro86_5png from "./assets/matt-projects/pro86 (5).png"
+import pro86_6png from "./assets/matt-projects/pro86 (6).png"
+
+// interiro
+import pro87_2 from "./assets/matt-projects/pro87 (2).jpg"
+import pro87_3  from "./assets/matt-projects/pro87 (3).jpg"
+import pro87_4  from "./assets/matt-projects/pro87 (4).jpg"
+import pro87_5  from "./assets/matt-projects/pro87 (5).jpg"
+import pro87_6  from "./assets/matt-projects/pro87 (6).jpg"
+import pro87_7  from "./assets/matt-projects/pro87 (7).jpg"
+import pro87_8  from "./assets/matt-projects/pro87 (8).jpg"
+import pro87_9  from "./assets/matt-projects/pro87 (9).jpg"
+import pro87_10 from "./assets/matt-projects/pro87 (10).jpg"
+import pro87_11 from "./assets/matt-projects/pro87 (11).jpg"
+import pro87_12 from "./assets/matt-projects/pro87 (12).jpg"
+import pro87_13 from "./assets/matt-projects/pro87 (13).jpg"
+import pro87_14 from "./assets/matt-projects/pro87 (14).jpg"
+import pro87_15 from "./assets/matt-projects/pro87 (15).jpg"
+import pro87_16 from "./assets/matt-projects/pro87 (16).jpg"
+import pro87_17 from "./assets/matt-projects/pro87 (17).jpg"
+import pro87_18 from "./assets/matt-projects/pro87 (18).jpg"
+import pro87_19 from "./assets/matt-projects/pro87 (19).jpg"
+import pro87_20 from "./assets/matt-projects/pro87 (20).jpg"
+import pro87_21 from "./assets/matt-projects/pro87 (21).jpg"
+import pro87_22 from "./assets/matt-projects/pro87 (22).jpg"
+import pro87_23 from "./assets/matt-projects/pro87 (23).jpg"
+import pro87_24 from "./assets/matt-projects/pro87 (24).jpg"
+
+// interiro
+import pro88_1 from "./assets/matt-projects/pro88 (1).jpg"
+import pro88_2 from "./assets/matt-projects/pro88 (2).jpg"
+import pro88_3  from "./assets/matt-projects/pro88 (3).jpg"
+import pro88_4  from "./assets/matt-projects/pro88 (4).jpg"
+import pro88_5  from "./assets/matt-projects/pro88 (5).jpg"
+import pro88_6  from "./assets/matt-projects/pro88 (6).jpg"
+import pro88_7  from "./assets/matt-projects/pro88 (7).jpg"
+import pro88_8  from "./assets/matt-projects/pro88 (8).jpg"
+import pro88_9  from "./assets/matt-projects/pro88 (9).jpg"
+
+
+
 
 
 
 
 export const dataInteriorImage =[
-  
+  pro88_1,
+pro88_2,
+pro84_11,
+pro84_12,
+pro84_13,
+pro84_14,
+pro84_15,
+pro84_16,
+pro84_17,
+pro84_18,
+pro84_19,
+pro84_20,
+  pro83_1, 
+pro88_3,
+pro88_4,
+pro88_5,
+pro88_6,
+pro88_7,
+pro88_8,
+pro88_9,
+  pro87_2 ,
+  pro87_3 ,
+  pro87_4 ,
+  pro87_5 ,
+  pro87_6 ,
+  pro87_7 ,
+  pro87_8 ,
+  pro87_9 ,
+  pro87_10,
+  pro87_11,
+  pro87_21,
+ 
+  pro87_18,
+  pro87_19,
+  pro87_20,
+  pro87_21,
+  pro87_22,
+  pro87_23,
+  pro87_24,
+pro86_2png ,
+pro86_4png,
+pro86_5png,
+pro86_6png,
+pro86_4 ,
+pro86_7 ,
+pro86_8 ,
+
+pro86_15,
+pro86_16,
+pro86_17,
+
+pro86_19,
+
+pro86_21,
+
+
+
+
+
+
+  pro85_1, 
+pro85_2 ,
+pro85_3 ,
+pro85_4 ,
+pro85_5 ,
+pro85_6 ,
+pro85_7 ,
+pro85_8 ,
+pro85_9 ,
+pro85_10,
+pro85_11,
+pro85_12,
+pro85_13,
+pro85_14,
+pro85_15,
+pro85_16,
+pro85_17,
+pro85_18,
+pro85_19,
+pro85_20,
+pro85_21,
+pro85_22,
+pro85_23,
+pro87_13,
+pro87_14,
+pro87_15,
+pro87_16,
+pro87_17,
+pro85_24,
+pro85_25,
+  pro84_1, 
+pro84_2 ,
+pro84_3 ,
+pro84_4 ,
+pro84_5 ,
+pro84_6 ,
+pro84_7 ,
+pro84_8 ,
+pro84_9 ,
+pro84_10,
+
+pro83_2 ,
+pro83_3 ,
+pro83_4 ,
+pro83_5 ,
+pro83_6 ,
+pro83_7 ,
+pro83_8 ,
+pro83_9 ,
+pro83_10,
+pro83_11,
+pro83_12,
+pro83_13,
+pro83_14,
+pro83_15,
+pro83_16,
+pro83_17,
+pro83_18,
+pro83_19,
+pro83_20,
+pro83_21,
+  pro82_1, 
+pro82_2 ,
+pro82_3 ,
+pro82_4 ,
+pro82_5 ,
+pro82_6 ,
+pro82_7 ,
+pro82_8 ,
+pro82_9 ,
+pro82_10,
+pro82_11,
+pro82_12,
+pro82_13,
+pro82_14,
+pro82_15,
+  pro81_11,
+pro81_12,
+pro81_13,
+pro81_14,
+pro81_15,
+pro81_16,
+pro81_17,
+pro81_18,
+  pro81_1, 
+pro81_2 ,
+pro81_3 ,
+pro81_4 ,
+pro81_5 ,
+pro81_6 ,
+pro81_7 ,
+pro81_8 ,
+pro81_9 ,
+pro81_10,
+  pro76 , 
+pro77  ,
+pro78  ,
+pro79  ,
+pro80_1,
+pro80_2,
     project19,
     project20,
     project21,
@@ -117,15 +468,1582 @@ project75,
 
 
 export const dataDigitalBestSeller = [
-    {
-      id: 0,
-      english: 'Design of Salah Al-Din Governorate Council Project',
-      arabic: 'مشروع تصميم مجلس محافظة صلاح الدين',
-      mainIMG: project17,
+
+  {
+    id: 0,
+    english: 'Design of Salah Al-Din Governorate Council Project',
+    arabic: 'مشروع تصميم مجلس محافظة صلاح الدين',
+    mainIMG: project17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 30,
+    english: "",
+    arabic: "",
+    mainIMG: project34,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 31,
+    english: "",
+    arabic: "",
+    mainIMG: project18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 33,
+    english: "",
+    arabic: "",
+    mainIMG: project37,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 34,
+    english: "",
+    arabic: "",
+    mainIMG: project38,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 35,
+    english: "",
+    arabic: "",
+    mainIMG: project39,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 36,
+    english: "",
+    arabic: "",
+    mainIMG: project40,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 37,
+    english: "",
+    arabic: "",
+    mainIMG: project41,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 38,
+    english: "",
+    arabic: "",
+    mainIMG: project42,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    id: 39,
+    english: "",
+    arabic: "",
+    mainIMG: project43,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_24,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_22,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_21,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_20,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_19,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_27,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_26,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_25,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_24,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_22,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_21,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_20,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_19,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_1png,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_2png,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_3png,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_4png,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro86_5png,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_25,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_24,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_22,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_21,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_20,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_19,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 49,
+    english: "",
+    arabic: "",
+    mainIMG: project53,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 50,
+    english: "",
+    arabic: "",
+    mainIMG: project54,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 51,
+    english: "",
+    arabic: "",
+    mainIMG: project55,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 52,
+    english: "",
+    arabic: "",
+    mainIMG: project56,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 53,
+    english: "",
+    arabic: "",
+    mainIMG: project57,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 54,
+    english: "",
+    arabic: "",
+    mainIMG: project58,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 55,
+    english: "",
+    arabic: "",
+    mainIMG: project59,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 56,
+    english: "",
+    arabic: "",
+    mainIMG: project60,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 57,
+    english: "",
+    arabic: "",
+    mainIMG: project61,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 58,
+    english: "",
+    arabic: "",
+    mainIMG: project62,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 59,
+    english: "",
+    arabic: "",
+    mainIMG: project63,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro85_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_20,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_19,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro84_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_21,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_20,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_19,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro83_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro82_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_17,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_16,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_15,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_14,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_13,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_11,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_10,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_9,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_8,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro81_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+    
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro80_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro80_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {   
+    english: '',
+    arabic: '',
+    mainIMG: pro79,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+      
+    english: '',
+    arabic: '',
+    mainIMG: pro78,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+      
+      english: '',
+      arabic: '',
+      mainIMG: pro77,
       interior:[],
       exterior:[],
       landscap:[]
     },
+    {
+      
+      english: '',
+      arabic: '',
+      mainIMG: pro76,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+   
     {
       id: 1,
       english: 'Front façade design of Salah al-Din Governorate project ',
@@ -392,95 +2310,7 @@ export const dataDigitalBestSeller = [
       landscap:[]
     },
 
-    {
-      id: 30,
-      english: "",
-      arabic: "",
-      mainIMG: project34,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 31,
-      english: "",
-      arabic: "",
-      mainIMG: project18,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 33,
-      english: "",
-      arabic: "",
-      mainIMG: project37,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 34,
-      english: "",
-      arabic: "",
-      mainIMG: project38,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 35,
-      english: "",
-      arabic: "",
-      mainIMG: project39,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 36,
-      english: "",
-      arabic: "",
-      mainIMG: project40,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 37,
-      english: "",
-      arabic: "",
-      mainIMG: project41,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 38,
-      english: "",
-      arabic: "",
-      mainIMG: project42,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-
-    {
-      id: 39,
-      english: "",
-      arabic: "",
-      mainIMG: project43,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
+   
 
 
     {
@@ -567,105 +2397,7 @@ export const dataDigitalBestSeller = [
       exterior:[],
       landscap:[]
     },
-    {
-      id: 49,
-      english: "",
-      arabic: "",
-      mainIMG: project53,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 50,
-      english: "",
-      arabic: "",
-      mainIMG: project54,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 51,
-      english: "",
-      arabic: "",
-      mainIMG: project55,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 52,
-      english: "",
-      arabic: "",
-      mainIMG: project56,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 53,
-      english: "",
-      arabic: "",
-      mainIMG: project57,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 54,
-      english: "",
-      arabic: "",
-      mainIMG: project58,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 55,
-      english: "",
-      arabic: "",
-      mainIMG: project59,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 56,
-      english: "",
-      arabic: "",
-      mainIMG: project60,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 57,
-      english: "",
-      arabic: "",
-      mainIMG: project61,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 58,
-      english: "",
-      arabic: "",
-      mainIMG: project62,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 59,
-      english: "",
-      arabic: "",
-      mainIMG: project63,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
+   
     {
       id: 60,
       english: "",

@@ -81,9 +81,9 @@ const Navbar = () => {
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-40 ease-in duration-300  "
+      className="fixed  left-0 top-0 w-full bg-red-400  z-40 ease-in duration-300  "
     >
-      <div className="max-w-[1820px] m-auto  flex justify-between items-center  mr-3   text-gray-300">
+      <div className="w-full  mx-auto  flex 2xl:justify-around justify-between items-center  mr-3 px-3   text-gray-300">
         {/*  logo nav */}
         <a href="/">
           <img
