@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-import icon from "../assets/about-section-3.png";
+import icon from "../assets/about-section-3-1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

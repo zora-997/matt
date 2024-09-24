@@ -479,15 +479,6 @@ export const dataDigitalBestSeller = [
     landscap:[]
   },
 
-
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_9,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
   {
     english: '',
     arabic: '',
@@ -497,169 +488,129 @@ export const dataDigitalBestSeller = [
     landscap:[]
   },
   {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_7,
+    id: 17,
+    english: 'Interior and exterior design and landscape with implementation for a villa in Salah Al-Din',
+    arabic: "تصميم خارجي وداخلي و لاند سكيب مع التنفيذ لفيلا في صلاح الدين",
+    mainIMG: project45,
     interior:[],
     exterior:[],
     landscap:[]
   },
   {
-    id: 30,
+    id: 18,
+    english: 'Interior and exterior design with implementation for a villa in Salah Al-Din',
+    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
+    mainIMG: project22,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 19,
+    english: "Exterior design for a villa in Erbil",
+    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
+    mainIMG: project23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+      {
+    id: 20,
+    english: "Interior and exterior design with implementation for a villa in Tikrit-Salah Al-Din",
+    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين-تكريت",
+    mainIMG: project24,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+{
+    id: 21,
+    english: "Interior design for a house in Baiji-Salah Al-Din",
+    arabic: "تصميم داخلي لبيت مشيد في صلاح الدين-بيجي",
+    mainIMG: project25,
+    exterior:[],
+    interior:[],
+    landscap:[]
+  },
+
+  {
+    id: 22,
     english: "",
     arabic: "",
-    mainIMG: project34,
+    mainIMG: project26,
     interior:[],
     exterior:[],
     landscap:[]
   },
 
   {
-    id: 31,
-    english: "",
-    arabic: "",
-    mainIMG: project18,
+    id: 23,
+    english: "Interior design for the main sales center of Asiacell Telecom Company in Kirkuk",
+    arabic: "تصميم داخلي للمركز الرئيسي للمبيعات الخاص بشركة اسيا سيل للاتصالات في كركوك",
+    mainIMG: project27,
     interior:[],
     exterior:[],
     landscap:[]
   },
 
   {
-    id: 33,
-    english: "",
-    arabic: "",
-    mainIMG: project37,
+    id: 24,
+    english: "Design and implementation of Al-Mukhtar Central Pharmacy in Kirkuk",
+    arabic: "تصميم وتنفيذ صيدلية المختار المركزية في كركوك",
+    mainIMG: project28,
     interior:[],
     exterior:[],
     landscap:[]
   },
 
-  {
-    id: 34,
-    english: "",
-    arabic: "",
-    mainIMG: project38,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
+ 
 
   {
-    id: 35,
+    id: 26,
     english: "",
     arabic: "",
-    mainIMG: project39,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-
-  {
-    id: 36,
-    english: "",
-    arabic: "",
-    mainIMG: project40,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    id: 37,
-    english: "",
-    arabic: "",
-    mainIMG: project41,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-
-  {
-    id: 38,
-    english: "",
-    arabic: "",
-    mainIMG: project42,
+    mainIMG: project30,
     interior:[],
     exterior:[],
     landscap:[]
   },
 
 
+
   {
-    id: 39,
+    id: 27,
     english: "",
     arabic: "",
-    mainIMG: project43,
+    mainIMG: project31,
     interior:[],
     exterior:[],
     landscap:[]
   },
+
   {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_6,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_5,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_4,
+    id: 28,
+    english: "",
+    arabic: "",
+    mainIMG: project32,
     interior:[],
     exterior:[],
     landscap:[]
   },
   
+
   {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_3,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_2,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro88_1,
+    id: 29,
+    english: "",
+    arabic: "",
+    mainIMG: project33,
     interior:[],
     exterior:[],
     landscap:[]
   },
 
+ 
 
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro87_24,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro87_23,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
   {
     english: '',
     arabic: '',
@@ -745,6 +696,87 @@ export const dataDigitalBestSeller = [
     english: '',
     arabic: '',
     mainIMG: pro87_12,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 62,
+    english: "",
+    arabic: "",
+    mainIMG: project66,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 63,
+    english: "",
+    arabic: "",
+    mainIMG: project67,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 65,
+    english: "",
+    arabic: "",
+    mainIMG: project69,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 66,
+    english: "",
+    arabic: "",
+    mainIMG: project70,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 67,
+    english: "",
+    arabic: "",
+    mainIMG: project71,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 68,
+    english: "",
+    arabic: "",
+    mainIMG: project72,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 69,
+    english: "",
+    arabic: "",
+    mainIMG: project73,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 70,
+    english: "",
+    arabic: "",
+    mainIMG: project74,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 71,
+    english: "",
+    arabic: "",
+    mainIMG: project75,
     interior:[],
     exterior:[],
     landscap:[]
@@ -1066,144 +1098,7 @@ export const dataDigitalBestSeller = [
     exterior:[],
     landscap:[]
   },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro86_3png,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro86_4png,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro86_5png,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_25,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_24,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_23,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_22,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_21,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_20,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_19,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_18,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_17,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_16,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_15,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_14,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_13,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    english: '',
-    arabic: '',
-    mainIMG: pro85_12,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
+ 
   {
     english: '',
     arabic: '',
@@ -2090,6 +1985,144 @@ export const dataDigitalBestSeller = [
       landscap:[]
     },
     {
+      english: '',
+      arabic: '',
+      mainIMG: pro86_3png,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro86_4png,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro86_5png,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+  
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_25,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_24,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_23,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_22,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_21,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+  
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_20,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_19,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_18,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_17,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_16,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_15,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_14,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_13,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
+      english: '',
+      arabic: '',
+      mainIMG: pro85_12,
+      interior:[],
+      exterior:[],
+      landscap:[]
+    },
+    {
       id: 6,
       english: 'Preparing designs and detailed plans for a typical commercial middle school building in Salah al-Din - Tikrit',
       arabic: 'اعداد التصاميم والمخططات التفصيلية لبناية اعدادية تجارة نموذجية في صلاح الدين-تكريت',
@@ -2116,6 +2149,229 @@ export const dataDigitalBestSeller = [
       exterior:[],
       landscap:[]
     },
+    
+
+  {
+    id: 40,
+    english: "",
+    arabic: "",
+    mainIMG: project44,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 41,
+    english: "",
+    arabic: "",
+    mainIMG: project21,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 42,
+    english: "",
+    arabic: "",
+    mainIMG: project46,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 43,
+    english: "",
+    arabic: "",
+    mainIMG: project47,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 44,
+    english: "",
+    arabic: "",
+    mainIMG: project48,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 45,
+    english: "",
+    arabic: "",
+    mainIMG: project49,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_7,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 30,
+    english: "",
+    arabic: "",
+    mainIMG: project34,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 31,
+    english: "",
+    arabic: "",
+    mainIMG: project18,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 33,
+    english: "",
+    arabic: "",
+    mainIMG: project37,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 34,
+    english: "",
+    arabic: "",
+    mainIMG: project38,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 35,
+    english: "",
+    arabic: "",
+    mainIMG: project39,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 36,
+    english: "",
+    arabic: "",
+    mainIMG: project40,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    id: 37,
+    english: "",
+    arabic: "",
+    mainIMG: project41,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+  {
+    id: 38,
+    english: "",
+    arabic: "",
+    mainIMG: project42,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    id: 39,
+    english: "",
+    arabic: "",
+    mainIMG: project43,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_6,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_5,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_4,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_3,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_2,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro88_1,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
+
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_24,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+  {
+    english: '',
+    arabic: '',
+    mainIMG: pro87_23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
     {
       id: 9,
       english: 'Preparing designs and detailed plans for a typical industry high school in Tikrit-Salah al-Din',
@@ -2188,188 +2444,7 @@ export const dataDigitalBestSeller = [
       exterior:[],
       landscap:[]
     },
-    {
-      id: 17,
-      english: 'Interior and exterior design and landscape with implementation for a villa in Salah Al-Din',
-      arabic: "تصميم خارجي وداخلي و لاند سكيب مع التنفيذ لفيلا في صلاح الدين",
-      mainIMG: project45,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 18,
-      english: 'Interior and exterior design with implementation for a villa in Salah Al-Din',
-      arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
-      mainIMG: project22,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 19,
-      english: "Exterior design for a villa in Erbil",
-      arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
-      mainIMG: project23,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-        {
-      id: 20,
-      english: "Interior and exterior design with implementation for a villa in Tikrit-Salah Al-Din",
-      arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين-تكريت",
-      mainIMG: project24,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-  {
-      id: 21,
-      english: "Interior design for a house in Baiji-Salah Al-Din",
-      arabic: "تصميم داخلي لبيت مشيد في صلاح الدين-بيجي",
-      mainIMG: project25,
-      exterior:[],
-      interior:[],
-      landscap:[]
-    },
-
-    {
-      id: 22,
-      english: "",
-      arabic: "",
-      mainIMG: project26,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 23,
-      english: "Interior design for the main sales center of Asiacell Telecom Company in Kirkuk",
-      arabic: "تصميم داخلي للمركز الرئيسي للمبيعات الخاص بشركة اسيا سيل للاتصالات في كركوك",
-      mainIMG: project27,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 24,
-      english: "Design and implementation of Al-Mukhtar Central Pharmacy in Kirkuk",
-      arabic: "تصميم وتنفيذ صيدلية المختار المركزية في كركوك",
-      mainIMG: project28,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
    
-
-    {
-      id: 26,
-      english: "",
-      arabic: "",
-      mainIMG: project30,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-
-
-    {
-      id: 27,
-      english: "",
-      arabic: "",
-      mainIMG: project31,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 28,
-      english: "",
-      arabic: "",
-      mainIMG: project32,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    
-  
-    {
-      id: 29,
-      english: "",
-      arabic: "",
-      mainIMG: project33,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-   
-
-
-    {
-      id: 40,
-      english: "",
-      arabic: "",
-      mainIMG: project44,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 41,
-      english: "",
-      arabic: "",
-      mainIMG: project21,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 42,
-      english: "",
-      arabic: "",
-      mainIMG: project46,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-
-    {
-      id: 43,
-      english: "",
-      arabic: "",
-      mainIMG: project47,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 44,
-      english: "",
-      arabic: "",
-      mainIMG: project48,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 45,
-      english: "",
-      arabic: "",
-      mainIMG: project49,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
     {
       id: 46,
       english: "",
@@ -2416,87 +2491,7 @@ export const dataDigitalBestSeller = [
       exterior:[],
       landscap:[]
     },
-    {
-      id: 62,
-      english: "",
-      arabic: "",
-      mainIMG: project66,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 63,
-      english: "",
-      arabic: "",
-      mainIMG: project67,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 65,
-      english: "",
-      arabic: "",
-      mainIMG: project69,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 66,
-      english: "",
-      arabic: "",
-      mainIMG: project70,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 67,
-      english: "",
-      arabic: "",
-      mainIMG: project71,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 68,
-      english: "",
-      arabic: "",
-      mainIMG: project72,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 69,
-      english: "",
-      arabic: "",
-      mainIMG: project73,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 70,
-      english: "",
-      arabic: "",
-      mainIMG: project74,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
-    {
-      id: 71,
-      english: "",
-      arabic: "",
-      mainIMG: project75,
-      interior:[],
-      exterior:[],
-      landscap:[]
-    },
+    
     {
       id: 64,
       english: "",
