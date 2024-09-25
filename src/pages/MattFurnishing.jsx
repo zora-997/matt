@@ -35,7 +35,7 @@ const MattFurnishing = () => {
           </video>
           <div className="relative grid xl:flex xl:justify-start xl:items-center mx-auto  h-full max-w-[1720px] px-3  ">
             {/* lh */}
-            <p className=" max-w-3xl text-gray-300 md:text-lg text-sm absolute md:bottom-80 bottom-10 mx-3 xl:mx-0 font-semibold">
+            <div className=" max-w-3xl text-gray-300 md:text-lg text-sm absolute md:bottom-80 bottom-10 mx-3 xl:mx-0 font-semibold">
                 {/*  ---------------- dash border line ---------------------------- */}
       <h1 className="text-white mb-4 text-2xl max-w-md sm:text-4xl sm:max-w-3xl ">
               {charactersLine.map((char, index) => (
@@ -50,8 +50,8 @@ const MattFurnishing = () => {
                 </span>
               ))}
            
-           {/*  section name */}
             </h1>
+           {/*  section name */}
 
               <span className="border-t border-l p-1.5  md:text-5xl text-3xl font-bold text-white ">
                Matt Furnishing
@@ -80,7 +80,7 @@ const MattFurnishing = () => {
            
            {/*  section name */}
             </h1>
-            </p>
+            </div>
        
           </div>
         </div>

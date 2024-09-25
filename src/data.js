@@ -496,24 +496,7 @@ export const dataDigitalBestSeller = [
     exterior:[],
     landscap:[]
   },
-  {
-    id: 18,
-    english: 'Interior and exterior design with implementation for a villa in Salah Al-Din',
-    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
-    mainIMG: project22,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
-  {
-    id: 19,
-    english: "Exterior design for a villa in Erbil",
-    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
-    mainIMG: project23,
-    interior:[],
-    exterior:[],
-    landscap:[]
-  },
+
 
       {
     id: 20,
@@ -576,7 +559,15 @@ export const dataDigitalBestSeller = [
     landscap:[]
   },
 
-
+  {
+    id: 19,
+    english: "Exterior design for a villa in Erbil",
+    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
+    mainIMG: project23,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
 
   {
     id: 27,
@@ -619,6 +610,16 @@ export const dataDigitalBestSeller = [
     exterior:[],
     landscap:[]
   },
+  {
+    id: 18,
+    english: 'Interior and exterior design with implementation for a villa in Salah Al-Din',
+    arabic: "تصميم خارجي وداخلي مع التنفيذ لفيلا في صلاح الدين",
+    mainIMG: project22,
+    interior:[],
+    exterior:[],
+    landscap:[]
+  },
+
   {
     english: '',
     arabic: '',

@@ -36,42 +36,42 @@ const path = location.pathname
   const videoData = [
     {
       id: 2,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web2,
     },
     {
       id: 1,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web4,
     },
     {
       id: 4,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web,
     },
     {
       id: 3,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web3,
     },
     {
       id: 5,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web5,
     },
     {
       id: 6,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web6,
     },
     {
       id: 7,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web7,
     },
     {
       id: 8,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: web8,
     },
    
@@ -81,50 +81,50 @@ const path = location.pathname
   const videoFurnishing = [
     {
       id: 6,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf6,
     },
     {
       id: 7,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf7,
     },
     {
       id: 10,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf10,
     },
 
     {
       id: 2,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf2,
     },
   
     {
       id: 4,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf1,
     },
     {
       id: 3,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf3,
     },
     // {
     //   id: 5,
-    //   h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+    //   h1: "Matt Companyy is the best architecture comapny in iraq.",
     //   video: webf5,
     // },
    
     {
       id: 8,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf8,
     },
     {
       id: 9,
-      h1: "Matt Companyy is the best architecture comapny in iraq form kurdistan",
+      h1: "Matt Companyy is the best architecture comapny in iraq.",
       video: webf9,
     },
     
